@@ -1,6 +1,8 @@
 # Next Boilerplate
 
-Start your project with the NextJS in seconds, everything already configured
+Start your project with the NextJS in seconds, everything already configured.
+
+Online preview: [Open CodeSandbox](https://codesandbox.io/s/github/viniciushvc/next-boilerplate?file=/src/layouts/Home/index.tsx)
 
 ## 🚀  Technologies
 
