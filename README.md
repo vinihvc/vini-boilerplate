@@ -1,6 +1,6 @@
 # Next Boilerplate
 
-Start your project with the NextJS in seconds, everything already configured
+Start your project with the NextJS in seconds, everything already configured.
 
 ## 🚀  Technologies
 
