@@ -1,11 +1,11 @@
 export default {
-  titleTemplate: '%s - Vini Boilerplate ',
+  titleTemplate: '%s - Next Boilerplate ',
   openGraph: {
     type: 'website',
     locale: 'en_US',
     url: 'https://vini-boilerplate.vercel.app',
-    site_name: 'Vini Boilerplate',
-    title: 'Vini Boilerplate',
+    site_name: 'Next Boilerplate',
+    title: 'Next Boilerplate',
     images: [
       {
         url: 'https://raw.githubusercontent.com/viniciushvc/next-boilerplate/master/public/img/icon-512.png',
