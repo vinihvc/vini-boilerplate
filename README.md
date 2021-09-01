@@ -4,7 +4,7 @@
   
 Start your project with Next and all <a href='#--technologies'>modern technologies</a>.
   
-![ci](https://github.com/React-Avancado/boilerplate/workflows/ci/badge.svg)
+![ci](https://github.com/viniciushvc/next-boilerplate/workflows/ci/badge.svg)
 
 ## 🚀  Technologies
 
