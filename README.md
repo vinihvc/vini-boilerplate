@@ -38,7 +38,7 @@ Second, install packages
   yarn
 ```
 
-Third, run the development server:
+Third, run the development server
 
 ```bash
   yarn dev
