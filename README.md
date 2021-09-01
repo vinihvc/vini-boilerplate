@@ -21,15 +21,22 @@ Online preview: [Open CodeSandbox](https://codesandbox.io/s/github/viniciushvc/n
 -  [Next PWA](https://github.com/shadowwalker/next-pwa)
 -  [Next Sitemap](https://github.com/iamvishnusankar/next-sitemap)
 
+
 ## :desktop_computer: Getting Started
 
-First, Install packages
+First, run next-app using this template
+
+```bash
+  yarn create next-app -e https://github.com/viniciushvc/next-boilerplate
+```
+
+Second, install packages
 
 ```bash
   yarn
 ```
 
-Second, run the development server:
+Third, run the development server:
 
 ```bash
   yarn dev
