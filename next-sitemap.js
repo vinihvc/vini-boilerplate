@@ -1,4 +1,4 @@
 module.exports = {
-  siteUrl: 'https://example.com',
+  siteUrl: 'https://vini-boilerplate.vercel.app',
   generateRobotsTxt: true
 }

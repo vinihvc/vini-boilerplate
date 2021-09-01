@@ -1,22 +1,22 @@
 export default {
-  titleTemplate: '%s - Next Boilerplate ',
+  titleTemplate: '%s - Vini Boilerplate ',
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'http://example.com/',
-    site_name: 'Next Boilerplate',
-    title: 'Next Boilerplate',
+    url: 'https://vini-boilerplate.vercel.app',
+    site_name: 'Vini Boilerplate',
+    title: 'Vini Boilerplate',
     images: [
       {
-        url: 'example.com/image.jpg',
-        width: 2560,
-        height: 1440,
+        url: 'https://raw.githubusercontent.com/viniciushvc/next-boilerplate/master/public/img/icon-512.png',
+        width: 512,
+        height: 512,
         alt: 'Next Boilerplate'
       }
     ]
   },
   twitter: {
-    handle: 'http://example.com/',
+    handle: '@viniciushvc',
     site: 'http',
     cardType: 'summary_large_image'
   }
