@@ -22,7 +22,7 @@ const HomeLayout = () => {
         <x.a
           href="https://github.com/viniciushvc"
           target="_blank"
-          color="blue-600"
+          color="link"
           rel="norefer noopener"
           textDecoration={{ hover: 'underline' }}
         >

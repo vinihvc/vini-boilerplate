@@ -18,10 +18,12 @@ const theme = {
     ...defaultTheme.colors,
     bg: '#fff',
     text: '#333',
+    link: '#1d4ed8',
     modes: {
       dark: {
         bg: '#10171d',
-        text: '#dfdfdf'
+        text: '#dfdfdf',
+        link: '#93c5fd'
       }
     }
   }
