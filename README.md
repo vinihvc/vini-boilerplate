@@ -1,9 +1,6 @@
 
-<div align="center">
   <img  src="https://raw.githubusercontent.com/viniciushvc/next-boilerplate/master/public/img/icon-192.png" />  
     
-  <a href='https://githubbox.com/viniciushvc/next-boilerplate/' target="_blank">Online preview<a/> 
-</div>
   
 Start your project with Next and all <a href='#--technologies'>modern technologies</a>.
   
