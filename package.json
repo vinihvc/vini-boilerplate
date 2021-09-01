@@ -15,7 +15,8 @@
     "build-storybook": "build-storybook -s ./public",
     "postinstall": "husky install",
     "prepare": "husky install",
-    "postbuild": "next-sitemap"
+    "postbuild": "next-sitemap",
+    "analyze": "ANALYZE=true yarn build"
   },
   "lint-staged": {
     "src/**/*": [
@@ -24,23 +25,26 @@
     ]
   },
   "dependencies": {
+    "@next/bundle-analyzer": "^11.1.2",
     "@xstyled/styled-components": "^3.0.3",
+    "add": "^2.0.6",
     "next": "11.1.2",
     "next-pwa": "5.3.1",
     "next-seo": "^4.26.0",
     "react": "17.0.2",
     "react-dom": "17.0.2",
-    "styled-components": "^5.3.1"
+    "styled-components": "^5.3.1",
+    "yarn": "^1.22.11"
   },
   "devDependencies": {
-    "@babel/preset-typescript": "^7.15.0",
     "@babel/core": "^7.15.0",
+    "@babel/preset-typescript": "^7.15.0",
     "@storybook/addon-essentials": "6.3.7",
     "@storybook/react": "6.3.7",
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^12.0.0",
-    "@types/node": "^16.7.10",
     "@types/jest": "^27.0.1",
+    "@types/node": "^16.7.10",
     "@types/react": "17.0.19",
     "@types/styled-components": "5.1.13",
     "@typescript-eslint/eslint-plugin": "^4.30.0",

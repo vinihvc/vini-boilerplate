@@ -1,9 +1,9 @@
 
-  <img  src="https://raw.githubusercontent.com/viniciushvc/next-boilerplate/master/public/img/icon-192.png" />  
-    
-  
+  <img  src="https://raw.githubusercontent.com/viniciushvc/next-boilerplate/master/public/img/icon-192.png" />
+
+
 Start your project with Next and all <a href='#--technologies'>modern technologies</a>.
-  
+
 ![ci](https://github.com/viniciushvc/next-boilerplate/workflows/ci/badge.svg)
 
 ## 🚀  Technologies
@@ -57,6 +57,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 -  `storybook`: runs storybook on `localhost:6006`
 -  `build-storybook`: create the build version of storybook
 -  `g`: generate component files in `components/Component Name`
+-  `analyze`: same as `build` but creates bundle analyzer file
 
 ## :zap: Show your support
 
