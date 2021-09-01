@@ -2,25 +2,29 @@ import { defaultTheme } from '@xstyled/styled-components'
 
 const theme = {
   ...defaultTheme,
-  raddi: {
+  radii: {
     ...defaultTheme.radii,
-    default: '10px'
+    default: '6px'
+  },
+  shadows: {
+    ...defaultTheme.shadows,
+    default: 'rgba(149, 157, 165, 0.2) 0px 8px 24px'
+  },
+  durations: {
+    ...defaultTheme.durations,
+    default: '0.2s'
   },
   colors: {
     ...defaultTheme.colors,
-    primary: '#3b82f6',
-    darkBlue: '#2C1D3E',
     bg: '#fff',
     text: '#333',
-    link: '#006688',
     modes: {
       dark: {
         bg: '#10171d',
-        text: '#dfdfdf',
-        link: 'primary'
+        text: '#dfdfdf'
       }
     }
   }
-} as const
+}
 
 export default theme

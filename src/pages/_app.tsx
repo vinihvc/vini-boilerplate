@@ -1,10 +1,17 @@
 import { AppProps } from 'next/app'
 import Head from 'next/head'
 
+import {
+  ThemeProvider,
+  Preflight,
+  ColorModeProvider
+} from '@xstyled/styled-components'
+
 import { DefaultSeo } from 'next-seo'
 import SEO from '../../next-seo.config'
 
-import BaseLayout from 'layouts/Base'
+import GlobalStyles from 'styles/global'
+import theme from 'styles/theme'
 
 const App = ({ Component, pageProps }: AppProps) => {
   return (
@@ -20,9 +27,14 @@ const App = ({ Component, pageProps }: AppProps) => {
 
       <DefaultSeo {...SEO} />
 
-      <BaseLayout>
-        <Component {...pageProps} />
-      </BaseLayout>
+      <ThemeProvider theme={theme}>
+        <ColorModeProvider>
+          <Preflight />
+          <GlobalStyles />
+
+          <Component {...pageProps} />
+        </ColorModeProvider>
+      </ThemeProvider>
     </>
   )
 }

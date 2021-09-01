@@ -1,6 +1,6 @@
-import { NextSeo } from 'next-seo'
+import { useColorMode, x } from '@xstyled/styled-components'
 
-import { useColorMode } from '@xstyled/styled-components'
+import BaseLayout from 'layouts/Base'
 
 import Button from 'components/Button'
 
@@ -12,13 +12,24 @@ const HomeLayout = () => {
   }
 
   return (
-    <>
-      <NextSeo title="Home" />
-
+    <BaseLayout flexDirection="column">
       <Button onClick={toggleColor}>
         Toggle {colorMode === 'default' ? 'Dark' : 'Light'}
       </Button>
-    </>
+
+      <x.div position="absolute" bottom="20" fontWeight="medium">
+        Made with ❤️ by{' '}
+        <x.a
+          href="https://github.com/viniciushvc"
+          target="_blank"
+          color="blue-600"
+          rel="norefer noopener"
+          textDecoration={{ hover: 'underline' }}
+        >
+          Vinicius Vicentini
+        </x.a>
+      </x.div>
+    </BaseLayout>
   )
 }
 

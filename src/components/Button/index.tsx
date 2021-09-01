@@ -1,26 +1,26 @@
-import { HTMLAttributes } from 'react'
+import { AnchorHTMLAttributes, ButtonHTMLAttributes } from 'react'
 
-import { Color, x } from '@xstyled/styled-components'
-
-import { SpaceProps } from '@xstyled/system'
+import { x, SystemProps } from '@xstyled/styled-components'
 
 export type ButtonProps = {
-  children?: React.ReactNode
-  bg?: Color
-} & HTMLAttributes<HTMLButtonElement> &
-  SpaceProps
+  as?: React.ElementType
+} & SystemProps &
+  AnchorHTMLAttributes<HTMLAnchorElement> &
+  ButtonHTMLAttributes<HTMLButtonElement>
 
-const Button = ({ bg = 'primary', children, ...props }: ButtonProps) => {
+const Button = ({ children, ...props }: ButtonProps) => {
   return (
     <x.button
       display="flex"
-      bg={{ _: bg, hover: `${String(bg).split('-')[0]}-600` }}
+      transition
+      transitionDuration
+      bg={{ _: 'blue-600', hover: 'blue-500' }}
       color="white"
       outline="none"
-      border="1px solid"
-      borderColor="blue-700"
+      fontSize="sm"
+      fontWeight="medium"
       borderRadius
-      transition
+      boxShadow
       px={7}
       py={3}
       {...props}

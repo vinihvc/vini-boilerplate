@@ -3,16 +3,13 @@
 import 'styled-components'
 import '@xstyled/system'
 
-import {
-  ITheme,
-  DefaultTheme as XStyledDefaultTheme
-} from '@xstyled/styled-components'
+import { ITheme } from '@xstyled/styled-components'
 
 import theme from 'styles/theme'
 
 type Theme = typeof theme
 
-interface AppTheme extends ITheme, XStyledDefaultTheme, Theme {
+interface AppTheme extends ITheme, Theme {
   /* Customize your theme */
 }
 

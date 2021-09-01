@@ -1,28 +1,23 @@
-import {
-  ThemeProvider,
-  Preflight,
-  x,
-  ColorModeProvider
-} from '@xstyled/styled-components'
+import { PropsWithChildren } from 'react'
 
-import GlobalStyles from 'styles/global'
+import { x, SystemProps } from '@xstyled/styled-components'
 
-import theme from 'styles/theme'
+type BaseLayoutProps = SystemProps
 
-type BaseLayoutProps = {
-  children?: React.ReactNode
-}
-
-const BaseLayout = ({ children }: BaseLayoutProps) => {
+const BaseLayout = ({
+  children,
+  ...props
+}: PropsWithChildren<BaseLayoutProps>) => {
   return (
-    <ThemeProvider theme={theme}>
-      <ColorModeProvider>
-        <Preflight />
-        <GlobalStyles />
-
-        <x.main>{children}</x.main>
-      </ColorModeProvider>
-    </ThemeProvider>
+    <x.main
+      display="flex"
+      minH="100vh"
+      justifyContent="center"
+      alignItems="center"
+      {...props}
+    >
+      {children}
+    </x.main>
   )
 }
 
