@@ -1,8 +1,13 @@
-# Next Boilerplate
 
-Start your project with the NextJS in seconds, everything already configured.
-
-Online preview: [Open CodeSandbox](https://codesandbox.io/s/github/viniciushvc/next-boilerplate?file=/src/layouts/Home/index.tsx)
+<div align="center">
+  <img  src="https://raw.githubusercontent.com/viniciushvc/next-boilerplate/master/public/img/icon-192.png" />  
+    
+  <a href='https://githubbox.com/viniciushvc/next-boilerplate/' target="_blank">Online preview<a/> 
+</div>
+  
+Start your project with Next and all <a href='#--technologies'>modern technologies</a>.
+  
+![ci](https://github.com/React-Avancado/boilerplate/workflows/ci/badge.svg)
 
 ## 🚀  Technologies
 
