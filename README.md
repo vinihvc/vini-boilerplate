@@ -29,7 +29,7 @@ Start your project with Next and all <a href='#--technologies'>modern technologi
 First, run next-app using this template
 
 ```bash
-  yarn create next-app -e https://github.com/viniciushvc/next-boilerplate
+  yarn create next-app -e https://github.com/viniciushvc/next-boilerplate my-app
 ```
 
 Second, install packages
