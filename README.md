@@ -64,7 +64,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 When you build the application, React is changed by Preact to generate a smaller bundle.
 
-To disable:
+To disable, remove/comment this code:
 
 ``` diff
 next.config.js
