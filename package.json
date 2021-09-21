@@ -29,7 +29,7 @@
     "@xstyled/styled-components": "^3.0.3",
     "next": "11.1.2",
     "next-pwa": "5.3.1",
-    "next-seo": "^4.27.0",
+    "next-seo": "^4.28.0",
     "preact": "^10.5.14",
     "preact-render-to-string": "^5.1.19",
     "react": "17.0.2",
