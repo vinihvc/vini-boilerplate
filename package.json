@@ -26,7 +26,7 @@
   },
   "dependencies": {
     "@next/bundle-analyzer": "^11.1.2",
-    "@xstyled/styled-components": "^3.0.3",
+    "@xstyled/styled-components": "^3.1.0",
     "next": "11.1.2",
     "next-pwa": "5.3.1",
     "next-seo": "^4.28.1",
