@@ -60,7 +60,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 -  `g`: generate component files in `components/Component Name`
 -  `analyze`: same as `build` but creates bundle analyzer file
 
-## :stars: Reducing build bundle
+## :stars: Reducing bundle size
 
 When you build the application, React is changed by Preact to generate a smaller bundle.
 
