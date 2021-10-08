@@ -1,3 +1,8 @@
+/**
+ * File used by next-seo
+ *
+ * @see https://github.com/garmeeh/next-seo
+ */
 export default {
   titleTemplate: '%s - Next Boilerplate ',
   openGraph: {

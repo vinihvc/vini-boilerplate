@@ -1,3 +1,8 @@
+/**
+ * File used by jest
+ *
+ * @see https://jestjs.io
+ */
 module.exports = {
   testEnvironment: 'jsdom',
   testPathIgnorePatterns: ['/node_modules/', '/.next/'],
