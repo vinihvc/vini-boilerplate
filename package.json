@@ -59,7 +59,7 @@
     "eslint-plugin-react-hooks": "^4.2.0",
     "husky": "^7.0.2",
     "jest": "^27.2.5",
-    "lint-staged": "^11.2.0",
+    "lint-staged": "^11.2.3",
     "next-sitemap": "^1.6.179",
     "plop": "^2.7.4",
     "prettier": "^2.4.1",
