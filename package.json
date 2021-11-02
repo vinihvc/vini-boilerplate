@@ -60,7 +60,7 @@
     "husky": "^7.0.4",
     "jest": "^27.3.1",
     "lint-staged": "^11.2.6",
-    "next-sitemap": "^1.6.192",
+    "next-sitemap": "^1.6.199",
     "plop": "^2.7.6",
     "prettier": "^2.4.1",
     "storybook-addon-next-router": "^3.0.8",
