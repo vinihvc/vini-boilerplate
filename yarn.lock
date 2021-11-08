@@ -3338,26 +3338,26 @@
     "@webassemblyjs/wast-parser" "1.9.0"
     "@xtuc/long" "4.2.2"
 
-"@xstyled/core@^3.1.1":
-  version "3.1.1"
-  resolved "https://registry.yarnpkg.com/@xstyled/core/-/core-3.1.1.tgz#9bef316f8d10aefe3215f6e071a55931a90d1324"
-  integrity sha512-+3/mLXwqU2kJB3O/PucgJYsg6fuOQEhkz86DWU1+0hENMy+Lnkz/DnXkf1XSxN4gXacn09VlmTIGceMxxMybgg==
+"@xstyled/core@^3.1.2":
+  version "3.1.2"
+  resolved "https://registry.yarnpkg.com/@xstyled/core/-/core-3.1.2.tgz#c0d1505327d8511bc2dc16a771a29dab9986393b"
+  integrity sha512-uuGHJZm66Aj+RJh5c++9r5+U+gPhot+jgCwkU8n0pWLJFL6ftzuPyhmol0iTUiMQq+wLgjoVek4GyBNjx7CWZg==
   dependencies:
-    "@xstyled/system" "^3.1.1"
+    "@xstyled/system" "^3.1.2"
 
-"@xstyled/styled-components@^3.1.1":
-  version "3.1.1"
-  resolved "https://registry.yarnpkg.com/@xstyled/styled-components/-/styled-components-3.1.1.tgz#70da22d74d42c976a9c2cf23e8fd79702ff6c214"
-  integrity sha512-X8IIpoz5uJESzDbL0kDrJhmCt5LPZ/1iJ3rk4a3BfSoVLrvYjGyJwvQh6thavQ0IhxkclPhMycrXwzjcU9L7LA==
+"@xstyled/styled-components@^3.1.2":
+  version "3.1.2"
+  resolved "https://registry.yarnpkg.com/@xstyled/styled-components/-/styled-components-3.1.2.tgz#d23f61df886a9703cf706738b9120b65178f4e30"
+  integrity sha512-33kEqMNkryJ650ZDNYF4ieaeYvTDcc8ZEKsToMtpkVcqdudpoxukbftgzBuLIaAxpCQKRrEAcZvMTbQteQSgeQ==
   dependencies:
-    "@xstyled/core" "^3.1.1"
-    "@xstyled/system" "^3.1.1"
+    "@xstyled/core" "^3.1.2"
+    "@xstyled/system" "^3.1.2"
     "@xstyled/util" "^3.1.0"
 
-"@xstyled/system@^3.1.1":
-  version "3.1.1"
-  resolved "https://registry.yarnpkg.com/@xstyled/system/-/system-3.1.1.tgz#a59dd420eba1e262d70ff5f1e2c6c9b4f2799e36"
-  integrity sha512-HHtPd2eZ3lSW30zCito7Er9/tPaIg0WjrXaSeGgpYkOAXoQNZc30xFCDHWrjv8HHmcJb8UGsL0ysjMHW3Wxehw==
+"@xstyled/system@^3.1.2":
+  version "3.1.2"
+  resolved "https://registry.yarnpkg.com/@xstyled/system/-/system-3.1.2.tgz#976654b37dd3ba4d39e3a21990acdb7892fcae51"
+  integrity sha512-qlNwewhrBLxVdVuRTpxou4k8ez3TFo6lZ7PxeH1uN3fLt/+7RbdEErsCEWl4nmOI0Rjjz6TyE7OcQHZJ+aaE+A==
   dependencies:
     "@xstyled/util" "^3.1.0"
     csstype "^3.0.8"
