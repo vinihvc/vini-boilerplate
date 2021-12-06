@@ -12648,10 +12648,10 @@ store2@^2.12.0:
   resolved "https://registry.yarnpkg.com/store2/-/store2-2.12.0.tgz#e1f1b7e1a59b6083b2596a8d067f6ee88fd4d3cf"
   integrity sha512-7t+/wpKLanLzSnQPX8WAcuLCCeuSHoWdQuh9SB3xD0kNOM38DNf+0Oa+wmvxmYueRzkmh6IcdKFtvTa+ecgPDw==
 
-storybook-addon-next-router@^3.0.10:
-  version "3.0.10"
-  resolved "https://registry.yarnpkg.com/storybook-addon-next-router/-/storybook-addon-next-router-3.0.10.tgz#c6b1a6afdc640ddadf65c46764b808d736fd1bd5"
-  integrity sha512-DmmeLY/N3Cc0o4aq/vooxFkt+UbzWIshXftvkXZA2TPrHZ3flC7JzYZHiyxvMQVrhqQTKZ8FIvGXuuoNtmanZA==
+storybook-addon-next-router@^3.1.0:
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/storybook-addon-next-router/-/storybook-addon-next-router-3.1.0.tgz#39d87856baa4627da216a31ac354100635aaf0d9"
+  integrity sha512-+IBMeosdudfCQ6IqZmpdCxdr2kacLPP/HIHTApKSOYBhfKIEZYiXtEW0UXvbokjEdnUaLNpZA2Rpyq6sdt6Mxw==
   dependencies:
     tslib "^2.3.0"
 
