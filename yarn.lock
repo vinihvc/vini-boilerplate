@@ -3499,23 +3499,23 @@
     "@webassemblyjs/wast-parser" "1.9.0"
     "@xtuc/long" "4.2.2"
 
-"@xstyled/core@^3.1.2":
+"@xstyled/core@^3.2.0":
   version "3.2.0"
   resolved "https://registry.yarnpkg.com/@xstyled/core/-/core-3.2.0.tgz#a40ac58f2444e8490fe66a8da19930f63f9be22b"
   integrity sha512-bkTv2aXOPvjHW7d+on5Q4jObFwihw8J2+UqrLp+0cEht865GTe0tTf7uS75x/IhRFSZmAIDEzkzFpL/99dD/Fg==
   dependencies:
     "@xstyled/system" "^3.2.0"
 
-"@xstyled/styled-components@3.1.2":
-  version "3.1.2"
-  resolved "https://registry.yarnpkg.com/@xstyled/styled-components/-/styled-components-3.1.2.tgz#d23f61df886a9703cf706738b9120b65178f4e30"
-  integrity sha512-33kEqMNkryJ650ZDNYF4ieaeYvTDcc8ZEKsToMtpkVcqdudpoxukbftgzBuLIaAxpCQKRrEAcZvMTbQteQSgeQ==
+"@xstyled/styled-components@^3.1.2":
+  version "3.3.0"
+  resolved "https://registry.yarnpkg.com/@xstyled/styled-components/-/styled-components-3.3.0.tgz#bd1cdde99814882dfe93c35ff090340e4fca0704"
+  integrity sha512-cuXGsPLml94QdoKSpPyyNbM/x4aw9ILPhYaAqrgmjRfHV4jk/7Ichlv9xV6goOgh9adQFhMtCDVvpNzyN8BiFQ==
   dependencies:
-    "@xstyled/core" "^3.1.2"
-    "@xstyled/system" "^3.1.2"
-    "@xstyled/util" "^3.1.0"
+    "@xstyled/core" "^3.2.0"
+    "@xstyled/system" "^3.2.0"
+    "@xstyled/util" "^3.2.0"
 
-"@xstyled/system@^3.1.2", "@xstyled/system@^3.2.0":
+"@xstyled/system@^3.2.0":
   version "3.2.0"
   resolved "https://registry.yarnpkg.com/@xstyled/system/-/system-3.2.0.tgz#19f5a4dfca6c7f3becf4a8cb1070035716336602"
   integrity sha512-RQ+nx3bRGsRoiL+L2M3WJFvW2pkeaFopA5ZhdiC9dYTXMqWNRmcjPGa0f0L/wpQ0AgbGNIVpd9KTL6WitQ3fXQ==
@@ -3523,7 +3523,7 @@
     "@xstyled/util" "^3.2.0"
     csstype "^3.0.8"
 
-"@xstyled/util@^3.1.0", "@xstyled/util@^3.2.0":
+"@xstyled/util@^3.2.0":
   version "3.2.0"
   resolved "https://registry.yarnpkg.com/@xstyled/util/-/util-3.2.0.tgz#ad4c2275b7ff8bed00391e96bae308e04db063ba"
   integrity sha512-5X1ZiEum22NfLqE2s6/flSfX2abMEge8fsfpoUENcFGHKyU7wwxV1RqQaewHMN11iFcSo9QsruuJX8see3kOxQ==
@@ -9148,10 +9148,10 @@ lines-and-columns@^1.1.6:
   resolved "https://registry.yarnpkg.com/lines-and-columns/-/lines-and-columns-1.2.4.tgz#eca284f75d2965079309dc0ad9255abb2ebc1632"
   integrity sha512-7ylylesZQ/PV29jhEDl3Ufjo6ZX7gCqJr5F7PKrqc93v7fzSymt1BpwEU8nAUXs8qzzvqhbjhK5QZg6Mt/HkBg==
 
-lint-staged@^12.1.4:
-  version "12.1.4"
-  resolved "https://registry.yarnpkg.com/lint-staged/-/lint-staged-12.1.4.tgz#a92ec8509f13018caaafade61d515c2d5873316e"
-  integrity sha512-RgDz9nsFsE0/5eL9Vat0AvCuk0+j5mEuzBIVfrRH5FRtt5wibYe8zTjZs2nuqLFrLAGQGYnj8+HJxolcj08i/A==
+lint-staged@^12.1.5:
+  version "12.1.5"
+  resolved "https://registry.yarnpkg.com/lint-staged/-/lint-staged-12.1.5.tgz#e05582fc39aed5cb13b9dd1dfb8330407246d809"
+  integrity sha512-WyKb+0sNKDTd1LwwAfTBPp0XmdaKkAOEbg4oHE4Kq2+oQVchg/VAcjVQtSqZih1izNsTURjc2EkhG/syRQUXdA==
   dependencies:
     cli-truncate "^3.1.0"
     colorette "^2.0.16"
@@ -9841,7 +9841,7 @@ next-sitemap@^1.6.203:
     matcher "^4.0.0"
     minimist "^1.2.5"
 
-next@11.1.3:
+next@^11.1.3:
   version "11.1.3"
   resolved "https://registry.yarnpkg.com/next/-/next-11.1.3.tgz#0226b283cb9890e446aea759db8a867de2b279ef"
   integrity sha512-ud/gKmnKQ8wtHC+pd1ZiqPRa7DdgulPkAk94MbpsspfNliwZkYs9SIYWhlLSyg+c661LzdUI2nZshvrtggSYWA==
