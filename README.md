@@ -13,6 +13,7 @@ Start your project with Next and all <a href='#--technologies'>modern technologi
 -  [TypeScript](https://www.typescriptlang.org/)
 -  [xstyled](https://xstyled.dev/)
 -  [Styled Components](https://styled-components.com/)
+-  [NProgress](https://github.com/apal21/nextjs-progressbar)
 -  [Jest](https://jestjs.io/)
 -  [React Testing Library](https://testing-library.com/docs/react-testing-library/intro)
 -  [Storybook](https://storybook.js.org/)
