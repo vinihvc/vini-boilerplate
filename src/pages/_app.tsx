@@ -7,6 +7,8 @@ import {
   ColorModeProvider
 } from '@xstyled/styled-components'
 
+import NextNProgress from 'nextjs-progressbar'
+
 import { DefaultSeo } from 'next-seo'
 import SEO from '../../next-seo.config'
 
@@ -26,6 +28,14 @@ const App = ({ Component, pageProps }: AppProps) => {
       </Head>
 
       <DefaultSeo {...SEO} />
+
+      <NextNProgress
+        startPosition={0.3}
+        stopDelayMs={200}
+        height={3}
+        showOnShallow={true}
+        options={{ showSpinner: false }}
+      />
 
       <ThemeProvider theme={theme}>
         <ColorModeProvider>
