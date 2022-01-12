@@ -1,12 +1,11 @@
-import { PropsWithChildren } from 'react'
-
 import { x, SystemProps } from '@xstyled/styled-components'
 
 export type {{pascalCase name}}Props = {
   customProps?: string
+  children?: React.ReactNode
 } & SystemProps
 
-const {{pascalCase name}} = ({ ...props }: PropsWithChildren<{{pascalCase name}}Props>) => {
+const {{pascalCase name}} = ({ ...props }: {{pascalCase name}}Props) => {
   return (
     <x.div {...props}>
       <h1>{{pascalCase name}}</h1>

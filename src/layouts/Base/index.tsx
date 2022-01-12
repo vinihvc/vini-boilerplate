@@ -1,13 +1,10 @@
-import { PropsWithChildren } from 'react'
-
 import { x, SystemProps } from '@xstyled/styled-components'
 
-type BaseLayoutProps = SystemProps
+type BaseLayoutProps = {
+  children?: React.ReactNode
+} & SystemProps
 
-const BaseLayout = ({
-  children,
-  ...props
-}: PropsWithChildren<BaseLayoutProps>) => {
+const BaseLayout = ({ children, ...props }: BaseLayoutProps) => {
   return (
     <x.main
       display="flex"
