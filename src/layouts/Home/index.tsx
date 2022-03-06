@@ -20,7 +20,7 @@ const HomeLayout = () => {
       <x.div position="absolute" bottom="20" fontWeight="medium">
         Made with ❤️ by{' '}
         <x.a
-          href="https://github.com/viniciushvc"
+          href="https://github.com/vinihvc"
           target="_blank"
           color="link"
           rel="norefer noopener"

@@ -1,10 +1,10 @@
 
-  <img  src="https://raw.githubusercontent.com/viniciushvc/next-boilerplate/master/public/img/icon-192.png" />
+  <img  src="https://raw.githubusercontent.com/vinihvc/next-boilerplate/master/public/img/icon-192.png" />
 
 
 Start your project with Next and all <a href='#--technologies'>modern technologies</a>.
 
-![ci](https://github.com/viniciushvc/next-boilerplate/workflows/ci/badge.svg)
+![ci](https://github.com/vinihvc/next-boilerplate/workflows/ci/badge.svg)
 
 ## 🚀  Technologies
 
@@ -31,7 +31,7 @@ Start your project with Next and all <a href='#--technologies'>modern technologi
 First, run next-app using this template
 
 ```bash
-  yarn create next-app -e https://github.com/viniciushvc/next-boilerplate my-app
+  yarn create next-app -e https://github.com/vinihvc/next-boilerplate my-app
 ```
 
 Second, install packages

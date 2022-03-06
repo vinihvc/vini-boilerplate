@@ -13,7 +13,7 @@ export default {
     title: 'Next Boilerplate',
     images: [
       {
-        url: 'https://raw.githubusercontent.com/viniciushvc/next-boilerplate/master/public/img/icon-512.png',
+        url: 'https://raw.githubusercontent.com/vinihvc/next-boilerplate/master/public/img/icon-512.png',
         width: 512,
         height: 512,
         alt: 'Next Boilerplate'
@@ -21,7 +21,7 @@ export default {
     ]
   },
   twitter: {
-    handle: '@viniciushvc',
+    handle: '@vinihvc',
     site: 'http',
     cardType: 'summary_large_image'
   }
