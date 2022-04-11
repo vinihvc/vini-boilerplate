@@ -28,7 +28,7 @@
     "@next/bundle-analyzer": "^12.1.4",
     "@xstyled/styled-components": "^3.5.1",
     "next": "^12.1.4",
-    "next-pwa": "5.4.7",
+    "next-pwa": "5.5.0",
     "next-seo": "^5.4.0",
     "nextjs-progressbar": "^0.0.14",
     "preact": "^10.7.1",
