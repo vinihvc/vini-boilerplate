@@ -21,7 +21,7 @@ export const Button = forwardRef<ButtonProps, 'button'>((props, ref) => {
       h={10}
       px={5}
       transitionDuration="fast"
-      boxShadow="dark-lg"
+      boxShadow="lg"
       _hover={{
         bg: 'blue.600',
       }}
