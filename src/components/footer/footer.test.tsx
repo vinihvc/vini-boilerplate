@@ -14,7 +14,7 @@ describe('<Footer />', () => {
 
     expect(screen.getByRole('link', { name: /@vinihvc/i })).toHaveAttribute(
       'href',
-      'https://github.com/vinihvc'
+      'https://github.com/vinihvc',
     )
   })
 })

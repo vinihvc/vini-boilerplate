@@ -26,7 +26,7 @@ export const Footer = ({ ...props }: FooterProps) => {
         borderBottom="1px solid transparent"
         transitionDuration="fast"
         _hover={{
-          borderBottomColor: 'blue.200'
+          borderBottomColor: 'blue.200',
         }}
       >
         @vinihvc

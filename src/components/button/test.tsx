@@ -7,7 +7,7 @@ describe('<Button />', () => {
     render(<Button>Example button</Button>)
 
     expect(
-      screen.getByRole('button', { name: /example button/i })
+      screen.getByRole('button', { name: /example button/i }),
     ).toBeInTheDocument()
   })
 })

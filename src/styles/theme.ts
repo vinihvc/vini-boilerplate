@@ -10,11 +10,11 @@ const theme = {
   ...foundations,
   config: {
     useSystemColorMode: false,
-    initialColorMode: 'system'
+    initialColorMode: 'system',
   },
   styles: {
-    global: globalStyles
-  }
+    global: globalStyles,
+  },
 
   // layerStyles,
   // textStyles,
