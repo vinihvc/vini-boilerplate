@@ -1,6 +1,6 @@
 {
-  "name": "next-boilerplate",
-  "version": "1.0.0",
+  "name": "vini-boilerplate",
+  "version": "3.0.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
