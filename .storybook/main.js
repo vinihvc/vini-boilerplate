@@ -3,8 +3,7 @@ module.exports = {
   stories: ['../src/components/**/stories.tsx'],
   addons: [
     '@storybook/addon-essentials',
-    '@storybook/addon-a11y',
-    'storybook-addon-next-router'
+    '@storybook/addon-a11y'
   ],
   typescript: {
     reactDocgen: false
