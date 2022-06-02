@@ -1,32 +1,24 @@
-import { defaultTheme } from '@xstyled/styled-components'
+import foundations from '@chakra-ui/theme/foundations'
+
+import { globalStyles } from './global'
+// import { components } from './components'
+// import { globalStyles } from './global-styles'
+// import { layerStyles } from './layer-styles'
+// import { textStyles } from './text-styles'
 
 const theme = {
-  ...defaultTheme,
-  radii: {
-    ...defaultTheme.radii,
-    default: '6px'
+  ...foundations,
+  config: {
+    useSystemColorMode: false,
+    initialColorMode: 'system'
   },
-  shadows: {
-    ...defaultTheme.shadows,
-    default: 'rgba(149, 157, 165, 0.2) 0px 8px 24px'
-  },
-  durations: {
-    ...defaultTheme.durations,
-    default: '0.2s'
-  },
-  colors: {
-    ...defaultTheme.colors,
-    bg: '#fff',
-    text: '#333',
-    link: '#1d4ed8',
-    modes: {
-      dark: {
-        bg: '#10171d',
-        text: '#dfdfdf',
-        link: '#93c5fd'
-      }
-    }
+  styles: {
+    global: globalStyles
   }
+
+  // layerStyles,
+  // textStyles,
+  // components
 }
 
 export default theme

@@ -1,10 +1,10 @@
 import { RouterContext } from 'next/dist/shared/lib/router-context'
 
-import { Preflight, ThemeProvider } from '@xstyled/styled-components'
-
-import GlobalStyles from '../src/styles/global'
+import { ChakraProvider } from '@chakra-ui/provider'
 
 import theme from '../src/styles/theme'
+
+import './reset.css'
 
 export const parameters = {
   nextRouter: {
@@ -14,11 +14,8 @@ export const parameters = {
 
 export const decorators = [
   (Story) => (
-    <ThemeProvider theme={theme}>
-      <Preflight />
-      <GlobalStyles />
-
+    <ChakraProvider theme={theme}>
       <Story />
-    </ThemeProvider>
+    </ChakraProvider>
   )
 ]

@@ -11,7 +11,7 @@ Start your project with Next and all <a href='#--technologies'>modern technologi
 -  [NextJS](https://nextjs.org/)
 -  [Preact](https://preactjs.com/)
 -  [TypeScript](https://www.typescriptlang.org/)
--  [xstyled](https://xstyled.dev/)
+-  [chakra-system](chakra-ui.com/)
 -  [Styled Components](https://styled-components.com/)
 -  [NProgress](https://github.com/apal21/nextjs-progressbar)
 -  [Jest](https://jestjs.io/)

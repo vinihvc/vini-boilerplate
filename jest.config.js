@@ -1,16 +1,20 @@
-/**
- * File used by jest
- *
- * @see https://jestjs.io
- */
-module.exports = {
-  testEnvironment: 'jsdom',
-  testPathIgnorePatterns: ['/node_modules/', '/.next/'],
-  collectCoverage: true,
-  collectCoverageFrom: ['src/**/*.ts(x)?', '!src/**/stories.tsx'],
-  setupFilesAfterEnv: ['<rootDir>/.jest/setup.ts'],
-  modulePaths: ['<rootDir>/src/'],
-  transform: {
-    '^.+\\.(js|jsx|ts|tsx)$': ['babel-jest', { presets: ['next/babel'] }]
+// Sync object
+/** @type {import('@jest/types').Config.InitialOptions} */
+const config = {
+  verbose: true
+}
+
+module.exports = config
+
+// Or async function
+module.exports = async () => {
+  return {
+    verbose: true,
+    testEnvironment: 'jest-environment-jsdom',
+    testPathIgnorePatterns: ['/node_modules/', '/.next/'],
+    collectCoverage: true,
+    collectCoverageFrom: ['src/**/*.ts(x)?'],
+    setupFilesAfterEnv: ['<rootDir>/.jest/setup.ts'],
+    modulePaths: ['<rootDir>/src/']
   }
 }
