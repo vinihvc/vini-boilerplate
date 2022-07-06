@@ -1,16 +1,16 @@
-/**
- * File used by jest
- *
- * @see https://jestjs.io
- */
+/** @type {import('ts-jest/dist/types').InitialOptionsTsJest} */
 module.exports = {
+  preset: 'ts-jest',
   testEnvironment: 'jsdom',
+  setupFilesAfterEnv: ['<rootDir>/.jest/setup.ts'],
+  collectCoverageFrom: ['src/**/*.ts(x)?'],
   testPathIgnorePatterns: ['/node_modules/', '/.next/'],
   collectCoverage: true,
-  collectCoverageFrom: ['src/**/*.ts(x)?', '!src/**/stories.tsx'],
-  setupFilesAfterEnv: ['<rootDir>/.jest/setup.ts'],
   modulePaths: ['<rootDir>/src/'],
-  transform: {
-    '^.+\\.(js|jsx|ts|tsx)$': ['babel-jest', { presets: ['next/babel'] }]
-  }
+  verbose: true,
+  globals: {
+    'ts-jest': {
+      tsconfig: './tsconfig.jest.json',
+    },
+  },
 }

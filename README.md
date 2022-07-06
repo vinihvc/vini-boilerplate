@@ -9,11 +9,8 @@ Start your project with Next and all <a href='#--technologies'>modern technologi
 ## 🚀  Technologies
 
 -  [NextJS](https://nextjs.org/)
--  [Preact](https://preactjs.com/)
 -  [TypeScript](https://www.typescriptlang.org/)
--  [xstyled](https://xstyled.dev/)
--  [Styled Components](https://styled-components.com/)
--  [NProgress](https://github.com/apal21/nextjs-progressbar)
+-  [chakra-system](chakra-ui.com/)
 -  [Jest](https://jestjs.io/)
 -  [React Testing Library](https://testing-library.com/docs/react-testing-library/intro)
 -  [Storybook](https://storybook.js.org/)
@@ -60,26 +57,6 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 -  `build-storybook`: create the build version of storybook
 -  `g`: generate component files in `components/Component Name`
 -  `analyze`: same as `build` but creates bundle analyzer file
-
-## :stars: Reducing bundle size
-
-When you build the application, React is changed by Preact to generate a smaller bundle.
-
-To disable, remove/comment this code:
-
-``` diff
-next.config.js
-- webpack: (config, { dev, isServer }) => {
--   if (!dev && !isServer) {
--     Object.assign(config.resolve.alias, {
--       react: 'preact/compat',
--       'react-dom/test-utils': 'preact/test-utils',
--       'react-dom': 'preact/compat'
--     })
--   }
--   return config
-- }
-```
 
 ## :zap: Show your support
 

@@ -1,16 +1,13 @@
-import { x, SystemProps } from '@xstyled/styled-components'
+import { chakra, HTMLChakraProps } from '@chakra-ui/system'
 
 export type {{pascalCase name}}Props = {
-  customProps?: string
   children?: React.ReactNode
-} & SystemProps
+} & HTMLChakraProps<'div'>
 
-const {{pascalCase name}} = ({ ...props }: {{pascalCase name}}Props) => {
+export const {{pascalCase name}} = ({ ...props }: {{pascalCase name}}Props) => {
   return (
-    <x.div {...props}>
+    <chakra.div {...props}>
       <h1>{{pascalCase name}}</h1>
-    </x.div>
+    </chakra.div>
   )
 }
-
-export default {{pascalCase name}}
