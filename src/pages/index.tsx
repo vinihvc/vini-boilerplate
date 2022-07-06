@@ -1,11 +1,12 @@
 import { NextSeo } from 'next-seo'
 
-import { chakra } from '@chakra-ui/system'
 import { useColorMode } from '@chakra-ui/color-mode'
 
 import { DefaultLayout } from 'layouts/default'
 
 import { Button } from 'components/button'
+
+import { Flex } from 'components/layout'
 
 const HomePage = () => {
   const { colorMode, toggleColorMode } = useColorMode()
@@ -15,16 +16,11 @@ const HomePage = () => {
       <NextSeo title="Home" />
 
       <DefaultLayout>
-        <chakra.div
-          display="flex"
-          h="100vh"
-          justifyContent="center"
-          alignItems="center"
-        >
+        <Flex direction="column" h="100vh" justify="center" align="center">
           <Button onClick={toggleColorMode}>
             Toggle {colorMode === 'light' ? 'Dark' : 'Light'}
           </Button>
-        </chakra.div>
+        </Flex>
       </DefaultLayout>
     </>
   )

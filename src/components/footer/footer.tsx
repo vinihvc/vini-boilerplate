@@ -1,14 +1,13 @@
-import { chakra, HTMLChakraProps } from '@chakra-ui/system'
+import { HTMLChakraProps } from '@chakra-ui/system'
 
-export type FooterProps = {
-  children?: React.ReactNode
-} & HTMLChakraProps<'div'>
+import { Flex, Text } from 'components/layout'
 
-export const Footer = ({ ...props }: FooterProps) => {
+export type FooterProps = HTMLChakraProps<'div'>
+
+export const Footer = (props: FooterProps) => {
   return (
-    <chakra.div
-      display="flex"
-      justifyContent="center"
+    <Flex
+      justify="center"
       position="absolute"
       bottom="6"
       left="0"
@@ -18,7 +17,8 @@ export const Footer = ({ ...props }: FooterProps) => {
       {...props}
     >
       Made with ❤️ by
-      <chakra.a
+      <Text
+        as="a"
         href="https://github.com/vinihvc"
         target="_blank"
         rel="norefer noopener"
@@ -30,7 +30,7 @@ export const Footer = ({ ...props }: FooterProps) => {
         }}
       >
         @vinihvc
-      </chakra.a>
-    </chakra.div>
+      </Text>
+    </Flex>
   )
 }

@@ -8,7 +8,7 @@ import NextNProgress from 'nextjs-progressbar'
 import { DefaultSeo } from 'next-seo'
 import SEO from '../../next-seo.config'
 
-import theme from 'styles/theme'
+import { defaultTheme } from 'theme'
 
 const App = ({ Component, pageProps }: AppProps) => {
   return (
@@ -32,7 +32,7 @@ const App = ({ Component, pageProps }: AppProps) => {
         options={{ showSpinner: false }}
       />
 
-      <ChakraProvider theme={theme}>
+      <ChakraProvider theme={defaultTheme}>
         <Component {...pageProps} />
       </ChakraProvider>
     </>
