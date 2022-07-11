@@ -1224,27 +1224,37 @@
     "@chakra-ui/utils" "2.0.2"
     react-fast-compare "3.2.0"
 
-"@chakra-ui/theme-tools@2.0.2", "@chakra-ui/theme-tools@^2.0.2":
-  version "2.0.2"
-  resolved "https://registry.yarnpkg.com/@chakra-ui/theme-tools/-/theme-tools-2.0.2.tgz#2f59f14f553dcb5ccc8e8492cb9524954fe1bf89"
-  integrity sha512-E01ZJZB4XVqkvn2hOXKQ/uVkvaPLQN1SyxAYXjFZGyZ1ppBLl362EWfY9IgWNzDITgq9MCJyQFfm2mXwQDUNzA==
+"@chakra-ui/theme-tools@2.0.4", "@chakra-ui/theme-tools@^2.0.2":
+  version "2.0.4"
+  resolved "https://registry.yarnpkg.com/@chakra-ui/theme-tools/-/theme-tools-2.0.4.tgz#c3477e8959d01761130bc2dddb85a23fb9b4780e"
+  integrity sha512-jQaSPC4/dgg8pLbmfdnBdOgd2xO9ihRzNP+iNaBwlVIwS4cS6QVt8EqjfNNeMyehiEjHFn2qmeFESQe6z8WiAg==
   dependencies:
-    "@chakra-ui/utils" "2.0.2"
+    "@chakra-ui/utils" "2.0.3"
     "@ctrl/tinycolor" "^3.4.0"
 
-"@chakra-ui/theme@^2.1.0":
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/@chakra-ui/theme/-/theme-2.1.0.tgz#2a71da8c7f4c191e3711ef6139cec398a4fd7ad4"
-  integrity sha512-OHvKCQ/QUHc3ZVgKKshYkvholiDhPf7vEPZcNOi5rnaFSP4PzWd00d1i7HOXYSyv/TGDOBRzs1IcodKfG6FzgA==
+"@chakra-ui/theme@^2.1.2":
+  version "2.1.2"
+  resolved "https://registry.yarnpkg.com/@chakra-ui/theme/-/theme-2.1.2.tgz#d11718b75d1820d2ffc317860e6cd0f7bac8d141"
+  integrity sha512-D94mFtTyl6kAm3h91X7oFrTsjKE1IxSJaB4WuD7nxlaUeMbAqIiD1kgZ7EdEZCfj5BxcMA/X+7eQC8ahbqY6ng==
   dependencies:
     "@chakra-ui/anatomy" "2.0.1"
-    "@chakra-ui/theme-tools" "2.0.2"
-    "@chakra-ui/utils" "2.0.2"
+    "@chakra-ui/theme-tools" "2.0.4"
+    "@chakra-ui/utils" "2.0.3"
 
-"@chakra-ui/utils@2.0.2", "@chakra-ui/utils@^2.0.2":
+"@chakra-ui/utils@2.0.2":
   version "2.0.2"
   resolved "https://registry.yarnpkg.com/@chakra-ui/utils/-/utils-2.0.2.tgz#130ba1647ea2b94ad956ae4cbcf685838d350593"
   integrity sha512-9AC/ir9zm0shgFG7kdzOKUH2Wx5VB71M3uRMEsMZf75YlhhiU7AvBNtWXnJu+CBiTi41rKa5A+2ImMOsuPfGbA==
+  dependencies:
+    "@types/lodash.mergewith" "4.6.6"
+    css-box-model "1.2.1"
+    framesync "5.3.0"
+    lodash.mergewith "4.6.2"
+
+"@chakra-ui/utils@2.0.3", "@chakra-ui/utils@^2.0.2":
+  version "2.0.3"
+  resolved "https://registry.yarnpkg.com/@chakra-ui/utils/-/utils-2.0.3.tgz#4d3aca809264eeaf7b4cc693143ceb5953acb0cb"
+  integrity sha512-BEGENnswWMc58fixsmdxRrnrbYZSrrDsTuFcvh+A4sfrbVbVfMQNJBSV46LT0Z4roMZ10Pi5/brlLH1+22gGQw==
   dependencies:
     "@types/lodash.mergewith" "4.6.6"
     css-box-model "1.2.1"
