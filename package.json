@@ -33,7 +33,7 @@
     "@emotion/styled": "^11.9.3",
     "@next/bundle-analyzer": "^12.2.3",
     "next": "^12.2.3",
-    "next-pwa": "5.5.4",
+    "next-pwa": "5.5.5",
     "next-seo": "^5.5.0",
     "nextjs-progressbar": "^0.0.14",
     "react": "18.2.0",
