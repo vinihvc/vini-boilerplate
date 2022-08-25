@@ -1153,13 +1153,20 @@
   dependencies:
     "@chakra-ui/theme-tools" "^2.0.2"
 
-"@chakra-ui/color-mode@2.1.6", "@chakra-ui/color-mode@^2.1.6":
+"@chakra-ui/color-mode@2.1.6":
   version "2.1.6"
   resolved "https://registry.yarnpkg.com/@chakra-ui/color-mode/-/color-mode-2.1.6.tgz#9ea02ecbfbcb9f6a1a3d4c657d491f093615b951"
   integrity sha512-YtVoyYAe6kxoNDwB5Sv03Tz0dCIlo1JM57VfhKZTPxXmp3/FFvFe38+N5piNimuAl/xIDp6doFArnco3Bb7qFw==
   dependencies:
     "@chakra-ui/hooks" "2.0.8"
     "@chakra-ui/utils" "2.0.8"
+
+"@chakra-ui/color-mode@2.1.7", "@chakra-ui/color-mode@^2.1.6":
+  version "2.1.7"
+  resolved "https://registry.yarnpkg.com/@chakra-ui/color-mode/-/color-mode-2.1.7.tgz#91c02e82e551c5448081e4934efeddb10bb732c5"
+  integrity sha512-GAoKJzVRQeuEfCa2i0BZdMwxuOoaGknU3+5wgvLuaSpwlov4OyqpjKMRdSdpjr4IFiqqHK47dsr3H4LQsbO+9w==
+  dependencies:
+    "@chakra-ui/react-use-safe-layout-effect" "2.0.1"
 
 "@chakra-ui/css-reset@2.0.4":
   version "2.0.4"
@@ -1201,12 +1208,24 @@
   resolved "https://registry.yarnpkg.com/@chakra-ui/react-env/-/react-env-2.0.8.tgz#3d2fd11cdc04297addfa568a97f4bae6c00d5b6b"
   integrity sha512-DmRxJkw2mhk26FRKqvTk1RnZJK4mPc+dMWELo2oY2e2i2QvzvHw0ggvkAeyibyorsIJ2fFlrhHzPxMiNwL1SkA==
 
+"@chakra-ui/react-use-safe-layout-effect@2.0.1":
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/@chakra-ui/react-use-safe-layout-effect/-/react-use-safe-layout-effect-2.0.1.tgz#76f8882abaf17078c3b6eb93e1bb26f8c319f3f7"
+  integrity sha512-H+ZOjkPqv3KBPEoP68JKpQBNdLOI0mwzEiTT397UdvBVCCJ+1/ijWVUT+Ub/pYic60O6xUghy5ORaWqJHhnKDA==
+
 "@chakra-ui/react-utils@2.0.5":
   version "2.0.5"
   resolved "https://registry.yarnpkg.com/@chakra-ui/react-utils/-/react-utils-2.0.5.tgz#b094cca3919e7ca408e11a89160b826f4fcd6f47"
   integrity sha512-YTkDtyqZcI+l6O41og8P0Gd2z4MUKUQWu10VrcSF26izJg3lphU04VlPf+fB4wFJ97OGJBgtNxKuToe4Aqzg6A==
   dependencies:
     "@chakra-ui/utils" "2.0.8"
+
+"@chakra-ui/react-utils@2.0.6":
+  version "2.0.6"
+  resolved "https://registry.yarnpkg.com/@chakra-ui/react-utils/-/react-utils-2.0.6.tgz#bb471ce2bff724b99563685962145a2cc56bf61d"
+  integrity sha512-ZL0FPaolovXOxMzYRSLHgBYtvxIkA/c5GTSYpXL8DcC+TBLZnAmQ8BPTS2b6xys6xvwdQjkZRUeQ0cBNFaryJg==
+  dependencies:
+    "@chakra-ui/utils" "2.0.9"
 
 "@chakra-ui/styled-system@2.2.7":
   version "2.2.7"
@@ -1216,7 +1235,15 @@
     "@chakra-ui/utils" "2.0.8"
     csstype "^3.0.11"
 
-"@chakra-ui/system@2.2.6", "@chakra-ui/system@^2.2.4":
+"@chakra-ui/styled-system@2.2.8":
+  version "2.2.8"
+  resolved "https://registry.yarnpkg.com/@chakra-ui/styled-system/-/styled-system-2.2.8.tgz#d849be1fabc7563d1fedfcfa2fb56a4a7f9804ce"
+  integrity sha512-HvXtCVUt3kY/RTd0sY7k6dX8ZHCOUbtq5TSS+/E9zESZegwxsG84XKdLhRbLaguYyRB81cOgmFmT5WJmcWxMWA==
+  dependencies:
+    csstype "^3.0.11"
+    lodash.mergewith "4.6.2"
+
+"@chakra-ui/system@2.2.6":
   version "2.2.6"
   resolved "https://registry.yarnpkg.com/@chakra-ui/system/-/system-2.2.6.tgz#09824efd43d7568a5a34e40908bf2ad0e0f8d27f"
   integrity sha512-I5q38ObqCrGXmLsxkc56F+1RONbpIIFJvOgq1upXMPOJWHqkzmdqaoJtpANhoE2LvB0GH/gRniiWN17WBCsOIQ==
@@ -1225,6 +1252,17 @@
     "@chakra-ui/react-utils" "2.0.5"
     "@chakra-ui/styled-system" "2.2.7"
     "@chakra-ui/utils" "2.0.8"
+    react-fast-compare "3.2.0"
+
+"@chakra-ui/system@^2.2.7":
+  version "2.2.7"
+  resolved "https://registry.yarnpkg.com/@chakra-ui/system/-/system-2.2.7.tgz#ead90c3122f96dea9aa586cd50d70234a59aa21e"
+  integrity sha512-E6eVz6Ghzv5Gy9D3e/J5XWjYheHTCEuenQB4amuiXYAm7bgsjJJl0EHk8kHNW+Gjh4qj9f7F/9C7d/ZpaKpzZQ==
+  dependencies:
+    "@chakra-ui/color-mode" "2.1.7"
+    "@chakra-ui/react-utils" "2.0.6"
+    "@chakra-ui/styled-system" "2.2.8"
+    "@chakra-ui/utils" "2.0.9"
     react-fast-compare "3.2.0"
 
 "@chakra-ui/theme-tools@2.0.5":
@@ -1276,6 +1314,16 @@
   version "2.0.8"
   resolved "https://registry.yarnpkg.com/@chakra-ui/utils/-/utils-2.0.8.tgz#b75e1cd22479eaa64410bd42849e638138971b20"
   integrity sha512-5xSzOYSYbJEh+myY1mC6rOX+mzM/F2fiDqAw0zybHhfUab4zPHCO5RlgYVJ0L1DlGZUogVgRP6szH1xoBCcWQg==
+  dependencies:
+    "@types/lodash.mergewith" "4.6.6"
+    css-box-model "1.2.1"
+    framesync "5.3.0"
+    lodash.mergewith "4.6.2"
+
+"@chakra-ui/utils@2.0.9":
+  version "2.0.9"
+  resolved "https://registry.yarnpkg.com/@chakra-ui/utils/-/utils-2.0.9.tgz#1af3882b31fb46e0a411998d8e3607656f8d5043"
+  integrity sha512-7ct5562Jw6pZdtj63XfUkEUXXsCCVqdqIXyLtQ9VgOKtRQWwDxzc8uPI5Zjdw9AleEITZFUH8TNKWn75nm54kQ==
   dependencies:
     "@types/lodash.mergewith" "4.6.6"
     css-box-model "1.2.1"
