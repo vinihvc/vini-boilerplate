@@ -1264,10 +1264,10 @@
     "@chakra-ui/anatomy" "2.0.6"
     "@ctrl/tinycolor" "^3.4.0"
 
-"@chakra-ui/theme@^2.1.11":
-  version "2.1.11"
-  resolved "https://registry.yarnpkg.com/@chakra-ui/theme/-/theme-2.1.11.tgz#cdfca3e84fc6913c5bb1a06e24b7cbb1246e127e"
-  integrity sha512-gI0NLU6wO/5cRq8gbDHuy24Y/ZhJxN4D/2uucNN9is3h+d58/En5jV3fwzZW8PLiLKW/T2CmbYWEZWV2YkcUVA==
+"@chakra-ui/theme@^2.1.12":
+  version "2.1.12"
+  resolved "https://registry.yarnpkg.com/@chakra-ui/theme/-/theme-2.1.12.tgz#bb4ffe38849a5f7163895f74a08a06aa916fe020"
+  integrity sha512-2RaXPJB6FDtw9qMUbK2CMVZSdHmDfoq/Ud2karYallz6QdrsQaE/6SzqGeXB7J2ZuA886bprmXxstpVOfv/BJg==
   dependencies:
     "@chakra-ui/anatomy" "2.0.6"
     "@chakra-ui/theme-tools" "2.0.11"
