@@ -1,5 +1,7 @@
 /* eslint-disable @typescript-eslint/no-var-requires */
-const withPWA = require('next-pwa')
+const withPWA = require('next-pwa')({
+  dest: 'public',
+})
 
 const withBundleAnalyzer = require('@next/bundle-analyzer')({
   enabled: process.env.ANALYZE === 'true',
