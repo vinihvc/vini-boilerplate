@@ -1151,12 +1151,19 @@
   resolved "https://registry.yarnpkg.com/@chakra-ui/anatomy/-/anatomy-2.0.6.tgz#83164841d27eaa271ffa747534519bcd323c312f"
   integrity sha512-Vgop2FFdhVtX7BydjZdJWZAWy+DdXBU1IMaBppz6COaH+/7OXxoI2ec2bs17ehJyBO0M+ud3OLj5UCFQ79YsoQ==
 
-"@chakra-ui/color-mode@2.1.8", "@chakra-ui/color-mode@^2.1.6":
+"@chakra-ui/color-mode@2.1.8":
   version "2.1.8"
   resolved "https://registry.yarnpkg.com/@chakra-ui/color-mode/-/color-mode-2.1.8.tgz#887325572cd64da0a063d063df631c74fd25de2e"
   integrity sha512-IjHrdHHKG3lpCsiS7GR4TL58c0q++eL6/WrWMz2Pd6tnFFIgymacMiq7i+uNRPyvmrIhMxOMQWYlu+7dH2HzAg==
   dependencies:
     "@chakra-ui/react-use-safe-layout-effect" "2.0.1"
+
+"@chakra-ui/color-mode@^2.1.9":
+  version "2.1.9"
+  resolved "https://registry.yarnpkg.com/@chakra-ui/color-mode/-/color-mode-2.1.9.tgz#d3a6f9ba9eee15d9e14cc96484e25d44cef1dbc1"
+  integrity sha512-0kx0I+AQon8oS23/X+qMtnhsv/1BUulyJvU56p3Uh8CRaBfgJ7Ly9CerShoUL+5kadu6hN1M9oty4cugaCwv2w==
+  dependencies:
+    "@chakra-ui/react-use-safe-layout-effect" "2.0.2"
 
 "@chakra-ui/css-reset@2.0.7":
   version "2.0.7"
@@ -1196,6 +1203,11 @@
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/@chakra-ui/react-use-safe-layout-effect/-/react-use-safe-layout-effect-2.0.1.tgz#76f8882abaf17078c3b6eb93e1bb26f8c319f3f7"
   integrity sha512-H+ZOjkPqv3KBPEoP68JKpQBNdLOI0mwzEiTT397UdvBVCCJ+1/ijWVUT+Ub/pYic60O6xUghy5ORaWqJHhnKDA==
+
+"@chakra-ui/react-use-safe-layout-effect@2.0.2":
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/@chakra-ui/react-use-safe-layout-effect/-/react-use-safe-layout-effect-2.0.2.tgz#31088eeb4b2a6910251683ddb15fb855d6127adf"
+  integrity sha512-gl5HDq9RVeDJiT8udtpx12KRV8JPLJHDIUX8f/yZcKpXow0C7FFGg5Yy5I9397NQog5ZjKMuOg+AUq9TLJxsyQ==
 
 "@chakra-ui/react-utils@2.0.7":
   version "2.0.7"
