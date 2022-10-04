@@ -1146,10 +1146,10 @@
   resolved "https://registry.yarnpkg.com/@bcoe/v8-coverage/-/v8-coverage-0.2.3.tgz#75a2e8b51cb758a7553d6804a5932d7aace75c39"
   integrity sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==
 
-"@chakra-ui/anatomy@2.0.6":
-  version "2.0.6"
-  resolved "https://registry.yarnpkg.com/@chakra-ui/anatomy/-/anatomy-2.0.6.tgz#83164841d27eaa271ffa747534519bcd323c312f"
-  integrity sha512-Vgop2FFdhVtX7BydjZdJWZAWy+DdXBU1IMaBppz6COaH+/7OXxoI2ec2bs17ehJyBO0M+ud3OLj5UCFQ79YsoQ==
+"@chakra-ui/anatomy@2.0.7":
+  version "2.0.7"
+  resolved "https://registry.yarnpkg.com/@chakra-ui/anatomy/-/anatomy-2.0.7.tgz#33e60c7c4d6e5f949f6f8308249dc571f84ead1e"
+  integrity sha512-vzcB2gcsGCxhrKbldQQV6LnBPys4eSSsH2UA2mLsT+J3WlXw0aodZw0eE/nH7yLxe4zaQ4Gnc0KjkFW4EWNKSg==
 
 "@chakra-ui/color-mode@2.1.8":
   version "2.1.8"
@@ -1235,21 +1235,21 @@
     "@chakra-ui/utils" "2.0.10"
     react-fast-compare "3.2.0"
 
-"@chakra-ui/theme-tools@2.0.11":
-  version "2.0.11"
-  resolved "https://registry.yarnpkg.com/@chakra-ui/theme-tools/-/theme-tools-2.0.11.tgz#de97b422799627b5a514ae424ca08c1d348bc2a5"
-  integrity sha512-0Juf98bAyOgnBeQ39nMKWqRsOxZDw75BbAB8o0oVyjhYVS1wJh7tFX1ZRV8N/+AN6fuRXEznZPpyUh3J+ZTiRg==
+"@chakra-ui/theme-tools@2.0.12":
+  version "2.0.12"
+  resolved "https://registry.yarnpkg.com/@chakra-ui/theme-tools/-/theme-tools-2.0.12.tgz#b29d9fb626d35e3b00f532c64f95ea261d8f6997"
+  integrity sha512-mnMlKSmXkCjHUJsKWmJbgBTGF2vnLaMLv1ihkBn5eQcCubMQrBLTiMAEFl5pZdzuHItU6QdnLGA10smcXbNl0g==
   dependencies:
-    "@chakra-ui/anatomy" "2.0.6"
+    "@chakra-ui/anatomy" "2.0.7"
     "@ctrl/tinycolor" "^3.4.0"
 
-"@chakra-ui/theme@^2.1.12":
-  version "2.1.12"
-  resolved "https://registry.yarnpkg.com/@chakra-ui/theme/-/theme-2.1.12.tgz#bb4ffe38849a5f7163895f74a08a06aa916fe020"
-  integrity sha512-2RaXPJB6FDtw9qMUbK2CMVZSdHmDfoq/Ud2karYallz6QdrsQaE/6SzqGeXB7J2ZuA886bprmXxstpVOfv/BJg==
+"@chakra-ui/theme@^2.1.13":
+  version "2.1.13"
+  resolved "https://registry.yarnpkg.com/@chakra-ui/theme/-/theme-2.1.13.tgz#51e76179048cf87c0cb551a619a49d183246550e"
+  integrity sha512-qbrrvn9JstyLFV2qyhwgnhwzVs4zSJ4PcS3ScL8kafXJazTRU6onbCcjEZ5mVCw6z8uEz3jcE8Y5KIhVzaB+Xw==
   dependencies:
-    "@chakra-ui/anatomy" "2.0.6"
-    "@chakra-ui/theme-tools" "2.0.11"
+    "@chakra-ui/anatomy" "2.0.7"
+    "@chakra-ui/theme-tools" "2.0.12"
 
 "@chakra-ui/utils@2.0.10":
   version "2.0.10"
