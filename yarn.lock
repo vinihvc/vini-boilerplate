@@ -9816,14 +9816,14 @@ next@^12.3.1:
     "@next/swc-win32-ia32-msvc" "12.3.1"
     "@next/swc-win32-x64-msvc" "12.3.1"
 
-nextjs-progressbar@^0.0.15:
-  version "0.0.15"
-  resolved "https://registry.yarnpkg.com/nextjs-progressbar/-/nextjs-progressbar-0.0.15.tgz#480804009b227d547c06d00a54b984f56c119bd8"
-  integrity sha512-ZA3btbuD6y/PylGdA7U7wbpLDe9N1esYEF6nwn5SsGQA6jkZ4EmT+TcjVcpOWTMdgZqy5G/FxKIBU69yLoGSTw==
+nextjs-progressbar@^0.0.16:
+  version "0.0.16"
+  resolved "https://registry.yarnpkg.com/nextjs-progressbar/-/nextjs-progressbar-0.0.16.tgz#d2c1e54ffc2c6d52b64282c0d764a44241fbc36e"
+  integrity sha512-GV0fD38EMD3vSDCmkq+tObmoup6QA91a6a9MxGuhJZuRk/9TNsrHGnIQQQ/sggkMkXuT4fBgF6jRjFwScDT3zA==
   dependencies:
     "@types/nprogress" "^0.2.0"
     nprogress "^0.2.0"
-    prop-types "^15.7.2"
+    prop-types "^15.8.1"
 
 nice-try@^1.0.4:
   version "1.0.5"
