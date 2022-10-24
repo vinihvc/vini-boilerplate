@@ -1,14 +1,14 @@
-import { NextSeo } from 'next-seo'
-
 import { useColorMode } from '@chakra-ui/color-mode'
+
+import { INCLUDED_COMPONENTS } from 'constants/included-components'
+
+import { NextSeo } from 'next-seo'
 
 import { DefaultLayout } from 'layouts/default'
 
 import { Button } from 'components/button'
-
 import { Flex, Text } from 'components/layout'
 import { Link } from 'components/layout/link'
-import { INCLUDED_COMPONENTS } from 'constants/included-components'
 
 const HomePage = () => {
   const { colorMode, toggleColorMode } = useColorMode()

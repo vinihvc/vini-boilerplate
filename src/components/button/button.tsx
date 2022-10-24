@@ -1,8 +1,8 @@
 import {
-  chakra,
-  forwardRef,
   HTMLChakraProps,
   ThemingProps,
+  chakra,
+  forwardRef,
   useStyleConfig,
 } from '@chakra-ui/system'
 

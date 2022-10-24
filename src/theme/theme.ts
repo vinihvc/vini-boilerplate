@@ -1,7 +1,6 @@
-import { globalStyles } from './global'
-
-import { foundations } from './foundations'
 import { components } from './components'
+import { foundations } from './foundations'
+import { globalStyles } from './global'
 
 type ColorModeProps = 'light' | 'dark' | 'system'
 

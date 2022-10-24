@@ -3,12 +3,13 @@ import Head from 'next/head'
 
 import { ChakraProvider } from '@chakra-ui/provider'
 
+import { DefaultSeo } from 'next-seo'
+
 import NextNProgress from 'nextjs-progressbar'
 
-import { DefaultSeo } from 'next-seo'
-import SEO from '../../next-seo.config'
-
 import { defaultTheme } from 'theme'
+
+import SEO from '../../next-seo.config'
 
 const App = ({ Component, pageProps }: AppProps) => {
   return (

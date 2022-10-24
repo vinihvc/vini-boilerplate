@@ -1,9 +1,9 @@
 import {
-  chakra,
-  forwardRef,
+  HTMLChakraProps,
   ResponsiveValue,
   SystemProps,
-  HTMLChakraProps,
+  chakra,
+  forwardRef,
 } from '@chakra-ui/system'
 import { mapResponsive } from '@chakra-ui/utils'
 

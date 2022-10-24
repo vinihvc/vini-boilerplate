@@ -1,8 +1,8 @@
 import {
+  HTMLChakraProps,
+  SystemProps,
   chakra,
   forwardRef,
-  SystemProps,
-  HTMLChakraProps,
 } from '@chakra-ui/system'
 
 type TextProps = {

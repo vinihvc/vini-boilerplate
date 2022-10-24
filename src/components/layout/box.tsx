@@ -1,4 +1,4 @@
-import { chakra, forwardRef, HTMLChakraProps } from '@chakra-ui/system'
+import { HTMLChakraProps, chakra, forwardRef } from '@chakra-ui/system'
 
 type BoxProps = HTMLChakraProps<'div'>
 

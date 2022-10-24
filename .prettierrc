@@ -1,5 +1,24 @@
 {
   "trailingComma": "all",
   "semi": false,
-  "singleQuote": true
+  "singleQuote": true,
+  "importOrderSeparation": true,
+  "importOrderSortSpecifiers": true,
+  "importOrder": [
+    "^react$",
+    "^next/(.*)$",
+    "^@chakra-ui",
+    "^constants/(.*)$",
+    "^contexts/(.*)$",
+    "^next-seo",
+    "^nextjs-progressbar",
+    "^hooks/(.*)$",
+    "^services/(.*)$",
+    "^utils/(.*)$",
+    "^layouts/(.*)$",
+    "^pages/(.*)$",
+    "^components/(.*)$",
+    "^theme",
+    "^[./]"
+  ]
 }

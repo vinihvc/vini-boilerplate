@@ -16,13 +16,13 @@ export default {
         url: 'https://raw.githubusercontent.com/vinihvc/next-boilerplate/master/public/img/icon-512.png',
         width: 512,
         height: 512,
-        alt: 'Next Boilerplate'
-      }
-    ]
+        alt: 'Next Boilerplate',
+      },
+    ],
   },
   twitter: {
     handle: '@vinihvc',
     site: 'http',
-    cardType: 'summary_large_image'
-  }
+    cardType: 'summary_large_image',
+  },
 }

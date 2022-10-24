@@ -1,9 +1,9 @@
 import {
+  HTMLChakraProps,
+  ThemingProps,
   chakra,
   forwardRef,
   omitThemingProps,
-  ThemingProps,
-  HTMLChakraProps,
 } from '@chakra-ui/system'
 
 export type LinkProps = {
