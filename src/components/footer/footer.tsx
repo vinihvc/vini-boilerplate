@@ -1,6 +1,7 @@
-import { HTMLChakraProps } from '@chakra-ui/system'
+import { HTMLChakraProps, useColorModeValue } from '@chakra-ui/system'
 
-import { Flex, Text } from 'components/layout'
+import { Flex } from 'components/layout'
+import { Link } from 'components/layout/link'
 
 export type FooterProps = HTMLChakraProps<'div'>
 
@@ -17,20 +18,18 @@ export const Footer = (props: FooterProps) => {
       {...props}
     >
       Made with ❤️ by
-      <Text
-        as="a"
+      <Link
         href="https://github.com/vinihvc"
-        target="_blank"
-        rel="norefer noopener"
-        color="blue.500"
+        color={useColorModeValue('blue.600', 'blue.300')}
         borderBottom="1px solid transparent"
         transitionDuration="fast"
         _hover={{
-          borderBottomColor: 'blue.200',
+          borderBottomColor: useColorModeValue('blue.600', 'blue.300'),
         }}
+        isExternal
       >
         @vinihvc
-      </Text>
+      </Link>
     </Flex>
   )
 }
