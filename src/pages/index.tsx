@@ -7,7 +7,7 @@ import { NextSeo } from 'next-seo'
 import { DefaultLayout } from 'layouts/default'
 
 import { Button } from 'components/button'
-import { Flex, Text } from 'components/layout'
+import { Center, Flex, Text } from 'components/layout'
 import { Link } from 'components/layout/link'
 
 const HomePage = () => {
@@ -18,10 +18,10 @@ const HomePage = () => {
       <NextSeo title="Home" />
 
       <DefaultLayout>
-        <Flex direction="column" h="100vh" justify="center" align="center">
-          <Flex flexDirection="column" gap="4" align="center">
+        <Center flex={1}>
+          <Flex flexDirection="column" align="center" gap={4}>
             <Button onClick={toggleColorMode}>
-              Toggle {colorMode === 'light' ? 'Dark' : 'Light'}
+              {`Toggle ${colorMode === 'light' ? 'Dark' : 'Light'}`}
             </Button>
 
             <Link
@@ -44,7 +44,7 @@ const HomePage = () => {
                 Included layout component
               </Text>
 
-              <Flex justify="center">
+              <Flex justify="center" flexWrap="wrap">
                 {INCLUDED_COMPONENTS?.map((component) => (
                   <Link
                     key={component.name}
@@ -64,7 +64,7 @@ const HomePage = () => {
               </Flex>
             </Flex>
           </Flex>
-        </Flex>
+        </Center>
       </DefaultLayout>
     </>
   )

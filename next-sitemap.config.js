@@ -1,8 +1,4 @@
-/**
- * File used by next-sitemap
- *
- * @see https://github.com/iamvishnusankar/next-sitemap
- */
+/** @type {import('next-sitemap').IConfig} */
 module.exports = {
   siteUrl: 'https://vini-boilerplate.vercel.app',
   generateRobotsTxt: true,

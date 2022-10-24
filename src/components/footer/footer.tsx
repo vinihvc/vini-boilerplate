@@ -8,18 +8,19 @@ export type FooterProps = HTMLChakraProps<'div'>
 export const Footer = (props: FooterProps) => {
   return (
     <Flex
+      as="footer"
       justify="center"
-      position="absolute"
-      bottom="6"
-      left="0"
-      right="0"
       fontWeight="medium"
       gap="2"
+      py="5"
       {...props}
     >
-      Made with ❤️ by
+      Made with
+      <span aria-label="Heart icon">❤️</span>
+      by
       <Link
-        href="https://github.com/vinihvc"
+        href="https://viniciusvicentini.com/github"
+        aria-label="Visit my GitHub profile"
         color={useColorModeValue('blue.600', 'blue.300')}
         borderBottom="1px solid transparent"
         transitionDuration="fast"

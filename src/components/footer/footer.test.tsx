@@ -6,15 +6,15 @@ describe('<Footer />', () => {
   it('should have correct github profile', () => {
     render(<Footer />)
 
-    expect(screen.getByRole('link', { name: /@vinihvc/i })).toBeInTheDocument()
+    expect(screen.getByText(/@vinihvc/i)).toBeInTheDocument()
   })
 
   it('should have correct URL', () => {
     render(<Footer />)
 
-    expect(screen.getByRole('link', { name: /@vinihvc/i })).toHaveAttribute(
+    expect(screen.getByText(/@vinihvc/i)).toHaveAttribute(
       'href',
-      'https://github.com/vinihvc',
+      'https://viniciusvicentini.com/github',
     )
   })
 })
