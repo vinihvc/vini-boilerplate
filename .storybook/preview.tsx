@@ -1,9 +1,10 @@
+import React from 'react'
+
 import { RouterContext } from 'next/dist/shared/lib/router-context'
 
 import { ChakraProvider } from '@chakra-ui/provider'
 
-import theme from '../src/styles/theme'
-import './reset.css'
+import { defaultTheme } from '../src/theme'
 
 export const parameters = {
   nextRouter: {
@@ -13,7 +14,7 @@ export const parameters = {
 
 export const decorators = [
   (Story) => (
-    <ChakraProvider theme={theme}>
+    <ChakraProvider theme={defaultTheme}>
       <Story />
     </ChakraProvider>
   ),
