@@ -1,4 +1,4 @@
-import { HTMLChakraProps, useColorModeValue } from '@chakra-ui/system'
+import { HTMLChakraProps } from '@chakra-ui/system'
 
 import { Flex } from 'components/layout'
 import { Link } from 'components/layout/link'
@@ -21,12 +21,6 @@ export const Footer = (props: FooterProps) => {
       <Link
         href="https://viniciusvicentini.com/github"
         aria-label="Visit my GitHub profile"
-        color={useColorModeValue('blue.600', 'blue.300')}
-        borderBottom="1px solid transparent"
-        transitionDuration="fast"
-        _hover={{
-          borderBottomColor: useColorModeValue('blue.600', 'blue.300'),
-        }}
         isExternal
       >
         @vinihvc

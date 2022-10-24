@@ -1,71 +1,64 @@
-import { useColorMode } from '@chakra-ui/color-mode'
-
-import { INCLUDED_COMPONENTS } from 'constants/included-components'
+import { INCLUDED } from 'constants/included'
 
 import { NextSeo } from 'next-seo'
 
-import { DefaultLayout } from 'layouts/default'
-
-import { Button } from 'components/button'
-import { Center, Flex, Text } from 'components/layout'
+import { Image } from 'components/image'
+import { Center, Container, Flex, Text } from 'components/layout'
 import { Link } from 'components/layout/link'
 
 const HomePage = () => {
-  const { colorMode, toggleColorMode } = useColorMode()
-
   return (
     <>
       <NextSeo title="Home" />
 
-      <DefaultLayout>
+      <Container maxW="container.xl" flex={1}>
         <Center flex={1}>
           <Flex flexDirection="column" align="center" gap={4}>
-            <Button onClick={toggleColorMode}>
-              {`Toggle ${colorMode === 'light' ? 'Dark' : 'Light'}`}
-            </Button>
+            <Image
+              width={192}
+              height={192}
+              borderRadius="full"
+              src="https://raw.githubusercontent.com/vinihvc/next-boilerplate/master/public/img/icon-192.png"
+              alt="Next Logo with Chakra UI logo in the background"
+            />
 
-            <Link
-              href="https://chakra-ui.com/docs/styled-system/theme"
-              fontSize="xl"
-              fontWeight="semibold"
-              color="blue.600"
-              borderBottom="1px solid transparent"
-              transitionDuration="fast"
-              _hover={{
-                borderBottomColor: 'blue.600',
-              }}
-              isExternal
+            <Text
+              as="h1"
+              fontSize={{ base: '2xl', md: '6xl', lg: '8xl' }}
+              fontWeight="black"
+              textAlign="center"
             >
-              Chakra theme included
-            </Link>
+              Next Boilerplate
+            </Text>
 
-            <Flex flexDirection="column" align="center">
-              <Text fontSize="xl" fontWeight="semibold">
-                Included layout component
+            <Text fontSize="lg" fontWeight="medium" textAlign="center">
+              Based on{' '}
+              <Link
+                href="https://chakra-ui.com/docs/styled-system/style-props"
+                aria-label="Visit Chakra UI website to learn more about style props"
+                isExternal
+              >
+                chakra-system
+              </Link>{' '}
+              (not all Chakra UI components)
+            </Text>
+
+            <Flex flexDirection="column" align="center" gap={1}>
+              <Text fontWeight="medium" textAlign="center">
+                Components included:
               </Text>
 
               <Flex justify="center" flexWrap="wrap">
-                {INCLUDED_COMPONENTS?.map((component) => (
-                  <Link
-                    key={component.name}
-                    href={component.link}
-                    mr="2"
-                    color="blue.600"
-                    borderBottom="1px solid transparent"
-                    transitionDuration="fast"
-                    _hover={{
-                      borderBottomColor: 'blue.600',
-                    }}
-                    isExternal
-                  >
-                    {component.name}
+                {INCLUDED?.map((item) => (
+                  <Link key={item.name} href={item.link} mr="2" isExternal>
+                    {item.name}
                   </Link>
                 ))}
               </Flex>
             </Flex>
           </Flex>
         </Center>
-      </DefaultLayout>
+      </Container>
     </>
   )
 }

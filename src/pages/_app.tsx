@@ -7,6 +7,8 @@ import { DefaultSeo } from 'next-seo'
 
 import NextNProgress from 'nextjs-progressbar'
 
+import { DefaultLayout } from 'layouts/default'
+
 import { defaultTheme } from 'theme'
 
 import SEO from '../../next-seo.config'
@@ -34,7 +36,9 @@ const App = ({ Component, pageProps }: AppProps) => {
       />
 
       <ChakraProvider theme={defaultTheme}>
-        <Component {...pageProps} />
+        <DefaultLayout>
+          <Component {...pageProps} />
+        </DefaultLayout>
       </ChakraProvider>
     </>
   )

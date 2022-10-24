@@ -1,4 +1,8 @@
-export const INCLUDED_COMPONENTS = [
+export const INCLUDED = [
+  {
+    name: 'Tokens',
+    link: 'https://chakra-ui.com/docs/styled-system/theme',
+  },
   {
     name: 'Box',
     link: 'https://chakra-ui.com/docs/components/box',

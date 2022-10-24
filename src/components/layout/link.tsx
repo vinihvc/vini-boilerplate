@@ -4,6 +4,7 @@ import {
   chakra,
   forwardRef,
   omitThemingProps,
+  useStyleConfig,
 } from '@chakra-ui/system'
 
 export type LinkProps = {
@@ -15,12 +16,15 @@ export type LinkProps = {
   ThemingProps<'Link'>
 
 export const Link = forwardRef<LinkProps, 'a'>((props, ref) => {
+  const styles = useStyleConfig('Link', props)
+
   const { isExternal, ...rest } = omitThemingProps(props)
 
   return (
     <chakra.a
       ref={ref}
       className="link"
+      __css={styles}
       {...(isExternal && {
         target: '_blank',
         rel: 'noopener',
