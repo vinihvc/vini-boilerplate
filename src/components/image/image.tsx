@@ -18,29 +18,18 @@ export const Image = (props: ImageProps) => {
 
   return (
     <Box
-      position="relative"
-      width="full"
-      height="full"
-      overflow="hidden"
-      transition="normal"
       className="image"
+      position="relative"
+      overflow="hidden"
+      transitionDuration="0.3s"
+      transitionTimingFunction="cubic-bezier(.2, 0, .2, 1)"
+      filter={isLoading ? 'blur(10px)' : 'blur(0px)'}
       {...rest}
     >
-      <Box
-        as={NextImage}
+      <NextImage
         src={src}
         alt={alt}
-        layout="fill"
-        objectFit="cover"
-        transitionTimingFunction="cubic-bezier(.2, 0, .2, 1)"
-        transitionDuration="0.3s"
-        {...(isLoading
-          ? {
-              filter: 'blur(10px)',
-            }
-          : {
-              filter: 'blur(0px)',
-            })}
+        fill
         onLoadingComplete={() => setLoading(false)}
       />
     </Box>
