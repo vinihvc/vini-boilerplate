@@ -27,7 +27,7 @@
   },
   "dependencies": {
     "@chakra-ui/color-mode": "^2.1.9",
-    "@chakra-ui/provider": "^2.0.20",
+    "@chakra-ui/provider": "^2.0.21",
     "@chakra-ui/system": "^2.3.1",
     "@chakra-ui/theme": "^2.1.15",
     "@emotion/react": "^11.10.5",
