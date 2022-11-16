@@ -1212,6 +1212,11 @@
   resolved "https://registry.yarnpkg.com/@chakra-ui/anatomy/-/anatomy-2.0.7.tgz#33e60c7c4d6e5f949f6f8308249dc571f84ead1e"
   integrity sha512-vzcB2gcsGCxhrKbldQQV6LnBPys4eSSsH2UA2mLsT+J3WlXw0aodZw0eE/nH7yLxe4zaQ4Gnc0KjkFW4EWNKSg==
 
+"@chakra-ui/anatomy@2.1.0":
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/@chakra-ui/anatomy/-/anatomy-2.1.0.tgz#8aeb9b753f0412f262743adf68519dfa85120b3e"
+  integrity sha512-E3jMPGqKuGTbt7mKtc8g/MOOenw2c4wqRC1vOypyFgmC8wsewdY+DJJNENF3atXAK7p5VMBKQfZ7ipNlHnDAwA==
+
 "@chakra-ui/color-mode@2.1.9", "@chakra-ui/color-mode@^2.1.9":
   version "2.1.9"
   resolved "https://registry.yarnpkg.com/@chakra-ui/color-mode/-/color-mode-2.1.9.tgz#d3a6f9ba9eee15d9e14cc96484e25d44cef1dbc1"
@@ -1293,6 +1298,14 @@
     "@chakra-ui/anatomy" "2.0.7"
     "@ctrl/tinycolor" "^3.4.0"
 
+"@chakra-ui/theme-tools@2.0.13":
+  version "2.0.13"
+  resolved "https://registry.yarnpkg.com/@chakra-ui/theme-tools/-/theme-tools-2.0.13.tgz#cde5503b4044832ab659904281e8a260deae73bb"
+  integrity sha512-Dvai4lljtrs9f2aha3b9yajmxroNaVGNvkKkwh77dRW2jcNNBXepkGWfNLXVkP68Yydz5O+Lt5DKvETrEho9cQ==
+  dependencies:
+    "@chakra-ui/anatomy" "2.1.0"
+    "@ctrl/tinycolor" "^3.4.0"
+
 "@chakra-ui/theme-utils@2.0.2":
   version "2.0.2"
   resolved "https://registry.yarnpkg.com/@chakra-ui/theme-utils/-/theme-utils-2.0.2.tgz#fae1c307fe82a4b7c824f73ef34f77fc515d970b"
@@ -1302,13 +1315,21 @@
     "@chakra-ui/theme" "2.1.15"
     lodash.mergewith "4.6.2"
 
-"@chakra-ui/theme@2.1.15", "@chakra-ui/theme@^2.1.15":
+"@chakra-ui/theme@2.1.15":
   version "2.1.15"
   resolved "https://registry.yarnpkg.com/@chakra-ui/theme/-/theme-2.1.15.tgz#caf7902435b6e09f957d376cd2dcb509e062a0fb"
   integrity sha512-e+oZ0e7kXjtjWO0phUzlz9weWv0w4lv4Us/Lf8DXbstrPujgyxNYOF0LHTDRxzUNa5bYUsP9g5W+FW4e9E2UsQ==
   dependencies:
     "@chakra-ui/anatomy" "2.0.7"
     "@chakra-ui/theme-tools" "2.0.12"
+
+"@chakra-ui/theme@^2.2.1":
+  version "2.2.1"
+  resolved "https://registry.yarnpkg.com/@chakra-ui/theme/-/theme-2.2.1.tgz#83f5e484640bf8d97075f9fa3ca41f02c5caf3f7"
+  integrity sha512-6qEJMfnTjB5vGoY1kO/fDarK0Ivrb77UzDw8rY0aTHbjLJkOVxtd7d2H7m8xufh6gecCI5HuXqq8I297pLYm+w==
+  dependencies:
+    "@chakra-ui/anatomy" "2.1.0"
+    "@chakra-ui/theme-tools" "2.0.13"
 
 "@chakra-ui/utils@2.0.11":
   version "2.0.11"
