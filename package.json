@@ -33,7 +33,7 @@
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
     "@next/bundle-analyzer": "^13.0.3",
-    "next": "^13.0.3",
+    "next": "^13.0.4",
     "next-pwa": "5.6.0",
     "next-seo": "^5.14.1",
     "next-sitemap": "3.1.32",
