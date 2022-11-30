@@ -1285,14 +1285,6 @@
     "@chakra-ui/utils" "2.0.12"
     react-fast-compare "3.2.0"
 
-"@chakra-ui/theme-tools@2.0.13":
-  version "2.0.13"
-  resolved "https://registry.yarnpkg.com/@chakra-ui/theme-tools/-/theme-tools-2.0.13.tgz#cde5503b4044832ab659904281e8a260deae73bb"
-  integrity sha512-Dvai4lljtrs9f2aha3b9yajmxroNaVGNvkKkwh77dRW2jcNNBXepkGWfNLXVkP68Yydz5O+Lt5DKvETrEho9cQ==
-  dependencies:
-    "@chakra-ui/anatomy" "2.1.0"
-    "@ctrl/tinycolor" "^3.4.0"
-
 "@chakra-ui/theme-tools@2.0.14":
   version "2.0.14"
   resolved "https://registry.yarnpkg.com/@chakra-ui/theme-tools/-/theme-tools-2.0.14.tgz#6c523284ab384ca57a3aef1fcfa7c32ed357fbde"
@@ -1310,21 +1302,13 @@
     "@chakra-ui/theme" "2.2.2"
     lodash.mergewith "4.6.2"
 
-"@chakra-ui/theme@2.2.2":
+"@chakra-ui/theme@2.2.2", "@chakra-ui/theme@^2.2.2":
   version "2.2.2"
   resolved "https://registry.yarnpkg.com/@chakra-ui/theme/-/theme-2.2.2.tgz#5ea69adde78ee6ea59f9dce674947ed8be2ebc62"
   integrity sha512-7DlOQiXmnaqYyqXwqmfFSCWGkUonuqmNC5mmUCwxI435KgHNCaE2bIm6DI7N2NcIcuVcfc8Vn0UqrDoGU3zJBg==
   dependencies:
     "@chakra-ui/anatomy" "2.1.0"
     "@chakra-ui/theme-tools" "2.0.14"
-
-"@chakra-ui/theme@^2.2.1":
-  version "2.2.1"
-  resolved "https://registry.yarnpkg.com/@chakra-ui/theme/-/theme-2.2.1.tgz#83f5e484640bf8d97075f9fa3ca41f02c5caf3f7"
-  integrity sha512-6qEJMfnTjB5vGoY1kO/fDarK0Ivrb77UzDw8rY0aTHbjLJkOVxtd7d2H7m8xufh6gecCI5HuXqq8I297pLYm+w==
-  dependencies:
-    "@chakra-ui/anatomy" "2.1.0"
-    "@chakra-ui/theme-tools" "2.0.13"
 
 "@chakra-ui/utils@2.0.12":
   version "2.0.12"
@@ -1353,11 +1337,6 @@
   version "4.0.29"
   resolved "https://registry.yarnpkg.com/@corex/deepmerge/-/deepmerge-4.0.29.tgz#af9debf07d7f6b0d2a9d04a266abf2c1418ed2f6"
   integrity sha512-q/yVUnqckA8Do+EvAfpy7RLdumnBy9ZsducMUtZTvpdbJC7azEf1hGtnYYxm0QfphYxjwggv6XtH64prvS1W+A==
-
-"@ctrl/tinycolor@^3.4.0":
-  version "3.4.1"
-  resolved "https://registry.yarnpkg.com/@ctrl/tinycolor/-/tinycolor-3.4.1.tgz#75b4c27948c81e88ccd3a8902047bcd797f38d32"
-  integrity sha512-ej5oVy6lykXsvieQtqZxCOaLT+xD4+QNarq78cIYISHmZXshCvROLudpQN3lfL8G0NL7plMSSK+zlyvCaIJ4Iw==
 
 "@discoveryjs/json-ext@^0.5.3":
   version "0.5.7"
