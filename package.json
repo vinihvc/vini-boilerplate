@@ -29,7 +29,7 @@
     "@chakra-ui/color-mode": "^2.1.10",
     "@chakra-ui/provider": "^2.0.24",
     "@chakra-ui/system": "^2.3.3",
-    "@chakra-ui/theme": "^2.2.1",
+    "@chakra-ui/theme": "^2.2.2",
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
     "@next/bundle-analyzer": "^13.0.5",
