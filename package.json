@@ -32,7 +32,7 @@
     "@chakra-ui/theme": "^2.2.2",
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
-    "@next/bundle-analyzer": "^13.0.6",
+    "@next/bundle-analyzer": "^13.0.7",
     "next": "^13.0.7",
     "next-pwa": "5.6.0",
     "next-seo": "^5.15.0",
