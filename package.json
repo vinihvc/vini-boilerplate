@@ -42,7 +42,7 @@
     "react-dom": "18.2.0"
   },
   "devDependencies": {
-    "@storybook/addon-a11y": "^6.5.14",
+    "@storybook/addon-a11y": "^6.5.15",
     "@storybook/addon-essentials": "6.5.14",
     "@storybook/builder-webpack5": "^6.5.14",
     "@storybook/manager-webpack5": "^6.5.14",
