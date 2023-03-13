@@ -57,6 +57,7 @@ specifiers:
   tailwindcss: ^3.1.7
   tailwindcss-animate: ^1.0.5
   typescript: ^4.5.3
+  vite: ^4.1.4
   vitest: ^0.29.2
 
 dependencies:
@@ -103,7 +104,7 @@ devDependencies:
   '@types/node': 17.0.45
   '@types/react': 18.0.28
   '@types/react-dom': 18.0.11
-  '@vitejs/plugin-react': 3.1.0
+  '@vitejs/plugin-react': 3.1.0_vite@4.1.4
   autoprefixer: 10.4.14_postcss@8.4.21
   eslint: 8.36.0
   eslint-config-next: 13.0.0_vgl77cfdswitgr47lm5swmv43m
@@ -118,6 +119,7 @@ devDependencies:
   prettier-plugin-tailwindcss: 0.2.4_2m34gfnsqvzqy5bj5eci3wt3by
   tailwindcss: 3.2.7_postcss@8.4.21
   typescript: 4.9.5
+  vite: 4.1.4_@types+node@17.0.45
   vitest: 0.29.2_jsdom@21.1.1
 
 packages:
@@ -1830,7 +1832,7 @@ packages:
       eslint-visitor-keys: 3.3.0
     dev: true
 
-  /@vitejs/plugin-react/3.1.0:
+  /@vitejs/plugin-react/3.1.0_vite@4.1.4:
     resolution: {integrity: sha512-AfgcRL8ZBhAlc3BFdigClmTUMISmmzHn7sB2h9U1odvc5U/MjWXsAaz18b/WoppUTDBzxOJwo2VdClfUcItu9g==}
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
@@ -1841,6 +1843,7 @@ packages:
       '@babel/plugin-transform-react-jsx-source': 7.19.6_@babel+core@7.21.0
       magic-string: 0.27.0
       react-refresh: 0.14.0
+      vite: 4.1.4_@types+node@17.0.45
     transitivePeerDependencies:
       - supports-color
     dev: true
