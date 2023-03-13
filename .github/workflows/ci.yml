@@ -39,8 +39,8 @@ jobs:
       - name: Install dependencies
         run: pnpm install
 
-      - name: Run linter checks
+      - name: Run lint
         run: pnpm lint
 
-      - name: Testing
+      - name: Run tests
         run: pnpm test:ci
