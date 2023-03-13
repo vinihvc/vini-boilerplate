@@ -1,5 +1,6 @@
 dist/*
 .cache
 public
+.next
 node_modules
 *.esm.js
