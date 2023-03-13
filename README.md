@@ -1,58 +1,78 @@
-  <img  src="https://raw.githubusercontent.com/vinihvc/next-boilerplate/master/public/img/icon-192.png" />
+# next-template
 
-Start your project with Next and all <a href='#--technologies'>modern technologies</a>.
+A Next.js 13 template for building apps with Radix UI and Tailwind CSS.
 
-![ci](https://github.com/vinihvc/next-boilerplate/workflows/ci/badge.svg)
+## Features
 
-## 🚀 Technologies
+- Radix UI Primitives
+- Tailwind CSS
+- Fonts with `@next/font`
+- Icons from [Lucide](https://lucide.dev)
+- Dark mode with `next-themes`
+- Automatic import sorting with `@ianvs/prettier-plugin-sort-imports`
 
-- [NextJS](https://nextjs.org/)
-- [TypeScript](https://www.typescriptlang.org/)
-- [chakra-system](chakra-ui.com/)
-- [Jest](https://jestjs.io/)
-- [React Testing Library](https://testing-library.com/docs/react-testing-library/intro)
-- [Storybook](https://storybook.js.org/)
-- [ESLint](https://eslint.org/)
-- [Prettier](https://prettier.io/)
-- [Plop Generator](https://plopjs.com/)
-- [Husky](https://github.com/typicode/husky)
-- [Next SEO](https://github.com/garmeeh/next-seo)
-- [Next PWA](https://github.com/shadowwalker/next-pwa)
-- [Next Sitemap](https://github.com/iamvishnusankar/next-sitemap)
+## Tailwind CSS Features
 
-## :desktop_computer: Getting Started
+- Class merging with `taiwind-merge`
+- Animation with `tailwindcss-animate`
+- Conditional classes with `clsx`
+- Variants with `class-variance-authority`
+- Automatic class sorting with `eslint-plugin-tailwindcss`
 
-First, run next-app using this template
+## Import Sort
 
-```bash
-  yarn create next-app -e https://github.com/vinihvc/next-boilerplate my-app
+The starter comes with `@ianvs/prettier-plugin-sort-imports` for automatically sort your imports.
+
+### Input
+
+```tsx
+import * as React from "react"
+import Link from "next/link"
+
+import { siteConfig } from "@/config/site"
+import { buttonVariants } from "@/components/ui/button"
+import "@/styles/globals.css"
+import { twMerge } from "tailwind-merge"
+
+import { NavItem } from "@/types/nav"
+import { cn } from "@/lib/utils"
 ```
 
-Second, install packages
+### Output
 
-```bash
-  yarn
+```tsx
+import * as React from "react"
+// React is always first.
+import Link from "next/link"
+// Followed by next modules.
+import { twMerge } from "tailwind-merge"
+
+// Followed by third-party modules
+// Space
+import "@/styles/globals.css"
+// styles
+import { NavItem } from "@/types/nav"
+// types
+import { siteConfig } from "@/config/site"
+// config
+import { cn } from "@/lib/utils"
+// lib
+import { buttonVariants } from "@/components/ui/button"
+
+// components
 ```
 
-Third, run the development server
+### Class Merging
 
-```bash
-  yarn dev
+The `cn` util handles conditional classes and class merging.
+
+### Input
+
+```ts
+cn("px-2 bg-neutral-100 py-2 bg-neutral-200")
+// Outputs `p-2 bg-neutral-200`
 ```
 
-## :information_source: Commands
+## License
 
-- `dev`: runs your application on `localhost:3000`
-- `build`: creates the production build version
-- `start`: starts a simple server with the build production code
-- `lint`: runs the linter in all components and pages
-- `test`: runs jest to test all components and pages
-- `test:watch`: runs jest in watch mode
-- `storybook`: runs storybook on `localhost:6006`
-- `build-storybook`: create the build version of storybook
-- `g`: generate component files in `components/Component Name`
-- `analyze`: same as `build` but creates bundle analyzer file
-
-## :zap: Show your support
-
-Give a ⭐️ if this template helped you!
+Licensed under the [MIT license](https://github.com/shadcn/ui/blob/main/LICENSE.md).
