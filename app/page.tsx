@@ -19,7 +19,7 @@ const RootPage = () => {
         <p className="max-w-[700px] text-lg text-neutral-700 dark:text-neutral-400 sm:text-xl">
           A Next.js boilerplate with a focus on practicality. Already set up
           with TypeScript, Tailwind CSS, Radix UI, Prettier, ESLint, Husky,
-          Lint-Staged, Vitest, PNPM, Dark Mode, and more.
+          Lint-Staged, Vitest, PNPM, Dark Mode and more.
         </p>
 
         <div className="flex w-full gap-4">
