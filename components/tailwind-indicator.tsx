@@ -1,5 +1,5 @@
 export const TailwindIndicator = () => {
-  if (process.env.NODE_ENV === "production") return null
+  if (process.env.NODE_ENV === 'production') return null
 
   return (
     <div className="fixed bottom-1 left-1 z-50">

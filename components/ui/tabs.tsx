@@ -1,8 +1,8 @@
-"use client"
+'use client'
 
-import * as React from "react"
-import { cn } from "@/utils/cn"
-import * as TabsPrimitive from "@radix-ui/react-tabs"
+import * as React from 'react'
+import { cn } from '@/utils/cn'
+import * as TabsPrimitive from '@radix-ui/react-tabs'
 
 export const Tabs = TabsPrimitive.Root
 
@@ -13,8 +13,8 @@ export const TabsList = React.forwardRef<
   <TabsPrimitive.List
     ref={ref}
     className={cn(
-      "inline-flex items-center justify-center rounded-md bg-neutral-100 p-1 dark:bg-neutral-800",
-      className
+      'inline-flex items-center justify-center rounded-md bg-neutral-100 p-1 dark:bg-neutral-800',
+      className,
     )}
     {...props}
   />
@@ -28,8 +28,8 @@ export const TabsTrigger = React.forwardRef<
 >(({ className, ...props }, ref) => (
   <TabsPrimitive.Trigger
     className={cn(
-      "inline-flex min-w-[100px] items-center justify-center rounded-[0.185rem] px-3 py-1.5  text-sm font-medium text-neutral-700 transition-all  disabled:pointer-events-none disabled:opacity-50 data-[state=active]:bg-white data-[state=active]:text-neutral-900 data-[state=active]:shadow-sm dark:text-neutral-200 dark:data-[state=active]:bg-neutral-900 dark:data-[state=active]:text-neutral-100",
-      className
+      'inline-flex min-w-[100px] items-center justify-center rounded-[0.185rem] px-3 py-1.5  text-sm font-medium text-neutral-700 transition-all  disabled:pointer-events-none disabled:opacity-50 data-[state=active]:bg-white data-[state=active]:text-neutral-900 data-[state=active]:shadow-sm dark:text-neutral-200 dark:data-[state=active]:bg-neutral-900 dark:data-[state=active]:text-neutral-100',
+      className,
     )}
     {...props}
     ref={ref}
@@ -44,8 +44,8 @@ export const TabsContent = React.forwardRef<
 >(({ className, ...props }, ref) => (
   <TabsPrimitive.Content
     className={cn(
-      "mt-2 rounded-md border border-neutral-200 p-6 dark:border-neutral-700",
-      className
+      'mt-2 rounded-md border border-neutral-200 p-6 dark:border-neutral-700',
+      className,
     )}
     {...props}
     ref={ref}

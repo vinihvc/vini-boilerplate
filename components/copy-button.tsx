@@ -1,8 +1,11 @@
-"use client"
+'use client'
 
-import * as React from "react"
-import { cn } from "@/utils/cn"
-import { Check, Copy } from "lucide-react"
+import * as React from 'react'
+import { useToast } from '@/hooks/use-toast'
+import { cn } from '@/utils/cn'
+import { Check, Copy } from 'lucide-react'
+
+import { ToastAction } from './ui/toast'
 
 type CopyButtonProps = {
   value: string
@@ -15,6 +18,8 @@ const copyToClipboardWithMeta = async (value: string) => {
 export const CopyButton = ({ value, className, ...props }: CopyButtonProps) => {
   const [hasCopied, setHasCopied] = React.useState(false)
 
+  const { toast } = useToast()
+
   React.useEffect(() => {
     setTimeout(() => {
       setHasCopied(false)
@@ -24,12 +29,17 @@ export const CopyButton = ({ value, className, ...props }: CopyButtonProps) => {
   return (
     <button
       className={cn(
-        "relative z-20 inline-flex h-8 items-center justify-center rounded-md border-neutral-200 p-2 text-sm font-medium text-neutral-900 transition-all hover:bg-neutral-100 focus:outline-none dark:text-neutral-100 dark:hover:bg-neutral-800",
-        className
+        'relative z-20 inline-flex h-8 items-center justify-center rounded-md border-neutral-200 p-2 text-sm font-medium text-neutral-900 transition-all hover:bg-neutral-100 focus:outline-none dark:text-neutral-100 dark:hover:bg-neutral-800',
+        className,
       )}
       onClick={() => {
         copyToClipboardWithMeta(value)
         setHasCopied(true)
+
+        toast({
+          title: 'Copied to clipboard!',
+          variant: 'default',
+        })
       }}
       {...props}
     >

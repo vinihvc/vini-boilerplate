@@ -1,6 +1,9 @@
-import Link from "next/link"
+import Link from 'next/link'
+import { CONFIG } from '@/constants/config'
+import { Github, Twitter } from 'lucide-react'
 
-import { ThemeToggle } from "@/components/theme-toggle"
+import { ThemeToggle } from '@/components/theme-toggle'
+import { buttonVariants } from '../ui/button'
 
 export const Header = () => {
   return (
@@ -16,6 +19,26 @@ export const Header = () => {
 
         <div className="flex flex-1 items-center justify-end space-x-4">
           <nav className="flex items-center space-x-1">
+            <Link
+              href={CONFIG.github}
+              className={buttonVariants({ variant: 'ghost', size: 'sm' })}
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+              <span className="sr-only">Visit Github</span>
+              <Github />
+            </Link>
+
+            <Link
+              href={CONFIG.twitter}
+              className={buttonVariants({ variant: 'ghost', size: 'sm' })}
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+              <span className="sr-only">Visit Twitter</span>
+              <Twitter />
+            </Link>
+
             <ThemeToggle />
           </nav>
         </div>
