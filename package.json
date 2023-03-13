@@ -9,12 +9,12 @@
     "test": "vitest",
     "test:ci": "vitest --run",
     "lint": "eslint . --max-warnings=0",
-    "format:write": "prettier --write \"**/*.{ts,tsx,mdx}\" --cache",
-    "format:check": "prettier --check \"**/*.{ts,tsx,mdx}\" --cache",
+    "format:write": "prettier --write \"**/*.{js,ts,tsx,mdx}\" --cache",
+    "format:check": "prettier --check \"**/*.{js,ts,tsx,mdx}\" --cache",
     "prepare": "husky install"
   },
   "lint-staged": {
-    "*.{ts,tsx}": [
+    "*.{js,ts,tsx}": [
       "pnpm format:write",
       "pnpm lint"
     ]
