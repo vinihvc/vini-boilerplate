@@ -30,7 +30,7 @@ const RootLayout = ({ children }: RootLayoutProps) => {
           'font-sans antialiased',
           'flex h-full min-h-screen flex-col',
           'bg-white dark:bg-neutral-900',
-          'text-neutral-900 dark:text-neutral-50 ',
+          'text-neutral-900 dark:text-neutral-50',
           fontSans.variable,
         )}
       >
