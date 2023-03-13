@@ -39,8 +39,24 @@ jobs:
       - name: Install dependencies
         run: pnpm install
 
-      - name: Run lint
+  linter:
+    name: Run linter checks
+    runs-on: ubuntu-latest
+    needs: cache-and-install
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Run linter checks
         run: pnpm lint
 
-      - name: Run tests
+  tests:
+    name: Run tests
+    runs-on: ubuntu-latest
+    needs: cache-and-install
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Testing
         run: pnpm test:ci
