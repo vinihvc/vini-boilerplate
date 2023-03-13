@@ -8,8 +8,6 @@
     "start": "next start",
     "test": "vitest",
     "lint": "next lint",
-    "preview": "next build && next start",
-    "typecheck": "tsc --noEmit",
     "format:write": "prettier --write \"**/*.{ts,tsx,mdx}\" --cache",
     "format:check": "prettier --check \"**/*.{ts,tsx,mdx}\" --cache",
     "prepare": "husky install"
@@ -17,7 +15,8 @@
   "lint-staged": {
     "*/**/*.{ts,tsx}": [
       "pnpm format:check",
-      "pnpm lint"
+      "pnpm lint",
+      "pnpm test"
     ]
   },
   "dependencies": {
