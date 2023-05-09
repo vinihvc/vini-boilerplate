@@ -65,8 +65,8 @@ export const sheetVariants = cva(
       },
       size: {
         content: '',
-        default: '',
         sm: '',
+        md: '',
         lg: '',
         xl: '',
         full: '',
@@ -80,7 +80,7 @@ export const sheetVariants = cva(
       },
       {
         position: ['top', 'bottom'],
-        size: 'default',
+        size: 'md',
         class: 'h-1/3',
       },
       {
@@ -110,7 +110,7 @@ export const sheetVariants = cva(
       },
       {
         position: ['right', 'left'],
-        size: 'default',
+        size: 'md',
         class: 'w-1/3',
       },
       {
@@ -136,7 +136,7 @@ export const sheetVariants = cva(
     ],
     defaultVariants: {
       position: 'right',
-      size: 'default',
+      size: 'md',
     },
   },
 )

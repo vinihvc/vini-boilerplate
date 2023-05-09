@@ -3,11 +3,23 @@ import { cn } from '@/utils/cn'
 import { VariantProps, cva } from 'class-variance-authority'
 
 export const buttonVariants = cva(
-  'active:scale-95 inline-flex items-center justify-center rounded-md text-sm font-medium transition-colors focus:outline-none focus:ring-2 focus:ring-neutral-400 focus:ring-offset-2 dark:hover:bg-neutral-800 dark:hover:text-neutral-100 disabled:opacity-50 dark:focus:ring-neutral-400 disabled:pointer-events-none dark:focus:ring-offset-neutral-900 data-[state=open]:bg-neutral-100 dark:data-[state=open]:bg-neutral-800',
+  [
+    'inline-flex items-center justify-center',
+    'rounded-md',
+    'text-sm font-medium',
+    'transition-colors',
+    'active:scale-95',
+    'data-[state=open]:bg-neutral-100',
+    'dark:data-[state=open]:bg-neutral-800',
+    'focus:outline-none focus:ring-2 focus:ring-neutral-400 focus:ring-offset-2',
+    'dark:focus:ring-neutral-400 dark:focus:ring-offset-neutral-900',
+    'dark:hover:bg-neutral-800 dark:hover:text-neutral-100',
+    'disabled:opacity-50 disabled:pointer-events-none',
+  ],
   {
     variants: {
       variant: {
-        default:
+        solid:
           'bg-neutral-900 text-white hover:bg-neutral-700 dark:bg-neutral-50 dark:text-neutral-900',
         destructive:
           'bg-red-500 text-white hover:bg-red-600 dark:hover:bg-red-600',
@@ -20,8 +32,8 @@ export const buttonVariants = cva(
         link: 'bg-transparent dark:bg-transparent underline-offset-4 hover:underline text-neutral-900 dark:text-neutral-100 hover:bg-transparent dark:hover:bg-transparent',
       },
       size: {
-        default: 'h-10 py-2 px-4',
         sm: 'h-9 px-2 rounded-md',
+        md: 'h-10 py-2 px-4',
         lg: 'h-11 px-8 rounded-md',
       },
       isFullWidth: {
@@ -29,8 +41,8 @@ export const buttonVariants = cva(
       },
     },
     defaultVariants: {
-      variant: 'default',
-      size: 'default',
+      variant: 'solid',
+      size: 'md',
     },
   },
 )

@@ -11,7 +11,9 @@
     "lint": "eslint . --max-warnings=0",
     "format:write": "prettier --write \"**/*.{js,ts,tsx,mdx}\" --cache",
     "format:check": "prettier --check \"**/*.{js,ts,tsx,mdx}\" --cache",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
   },
   "lint-staged": {
     "*.{js,ts,tsx}": [
@@ -57,6 +59,14 @@
   },
   "devDependencies": {
     "@ianvs/prettier-plugin-sort-imports": "^3.7.2",
+    "@storybook/addon-essentials": "^7.0.10",
+    "@storybook/addon-interactions": "^7.0.10",
+    "@storybook/addon-links": "^7.0.10",
+    "@storybook/addon-styling": "^1.0.6",
+    "@storybook/blocks": "^7.0.10",
+    "@storybook/nextjs": "^7.0.10",
+    "@storybook/react": "^7.0.10",
+    "@storybook/testing-library": "^0.0.14-next.2",
     "@tailwindcss/typography": "^0.5.9",
     "@testing-library/react": "^14.0.0",
     "@types/node": "^20.1.1",
@@ -68,6 +78,7 @@
     "eslint-config-next": "13.4.1",
     "eslint-config-prettier": "^8.8.0",
     "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-storybook": "^0.6.12",
     "eslint-plugin-tailwindcss": "^3.11.0",
     "husky": "^8.0.3",
     "jsdom": "^22.0.0",
@@ -75,6 +86,8 @@
     "postcss": "^8.4.23",
     "prettier": "^2.8.8",
     "prettier-plugin-tailwindcss": "^0.2.8",
+    "storybook": "^7.0.10",
+    "storybook-addon-themes": "^6.1.0",
     "tailwindcss": "^3.3.2",
     "typescript": "^5.0.4",
     "vite": "^4.3.5",

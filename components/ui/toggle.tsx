@@ -15,14 +15,14 @@ export const toggleVariants = cva(
           'bg-transparent border border-neutral-200 hover:bg-neutral-100 dark:border-neutral-700',
       },
       size: {
-        default: 'h-10 px-3',
         sm: 'h-9 px-2.5',
+        md: 'h-10 px-3',
         lg: 'h-11 px-5',
       },
     },
     defaultVariants: {
       variant: 'default',
-      size: 'default',
+      size: 'md',
     },
   },
 )
