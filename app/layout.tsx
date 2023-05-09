@@ -1,6 +1,6 @@
 import { Metadata } from 'next'
-import { cn } from '@/utils/cn'
 import { Inter as FontSans } from 'next/font/google'
+import { cn } from '@/utils/cn'
 
 import { Providers } from './providers'
 import '@/styles/globals.css'

@@ -41,7 +41,7 @@ const RootPage = () => {
             Components
           </Link>
 
-          <pre className="hidden h-11 items-center justify-between space-x-2 overflow-x-auto rounded-lg border border-neutral-100 bg-neutral-100 pr-2 pl-6 dark:border-neutral-700 dark:bg-black md:flex">
+          <pre className="hidden h-11 items-center justify-between space-x-2 overflow-x-auto rounded-lg border border-neutral-100 bg-neutral-100 pl-6 pr-2 dark:border-neutral-700 dark:bg-black md:flex">
             <code className="font-mono text-sm font-semibold text-neutral-900 dark:text-neutral-50">
               {CONFIG.command}
             </code>

@@ -3,7 +3,7 @@ export const TailwindIndicator = () => {
 
   return (
     <div className="fixed bottom-1 left-1 z-50">
-      <div className="flex h-6 w-6 items-center justify-center rounded-full bg-gray-800 py-2 px-4 font-mono text-xs text-white">
+      <div className="flex h-6 w-6 items-center justify-center rounded-full bg-gray-800 px-4 py-2 font-mono text-xs text-white">
         <div className="block sm:hidden">XS</div>
         <div className="hidden sm:block md:hidden lg:hidden xl:hidden 2xl:hidden">
           SM
