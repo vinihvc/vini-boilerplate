@@ -20,7 +20,32 @@ type RootLayoutProps = {
   children: React.ReactNode
 }
 
-export const metadata: Metadata = SEO
+export const metadata: Metadata = {
+  title: { absolute: SEO.title, template: `%s // ${SEO.title}` },
+  applicationName: SEO.title,
+  description: SEO.description,
+  keywords: SEO.keywords,
+  themeColor: '#0A0A0A',
+  openGraph: {
+    locale: 'en',
+    title: SEO.title,
+    description: SEO.description,
+    url: SEO.url,
+    type: 'website',
+    images: [
+      {
+        url: '/images/thumb.png',
+        width: 1200,
+        height: 630,
+        alt: SEO.description,
+      },
+    ],
+    siteName: SEO.title,
+  },
+  twitter: {
+    site: SEO.twitter,
+  },
+}
 
 const RootLayout = ({ children }: RootLayoutProps) => {
   return (

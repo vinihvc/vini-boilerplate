@@ -1,9 +1,6 @@
-import { Metadata } from 'next'
-
-export const SEO: Metadata = {
+export const SEO = {
   title: 'Next Boilerplate',
-  applicationName: 'Next Boilerplate',
-  description: 'Start your project with Next and all modern technologies.',
+  description: 'Start your project with Next and all modern technologies',
   keywords: [
     'Next',
     'Typescript',
@@ -12,14 +9,7 @@ export const SEO: Metadata = {
     'Vitest',
     'Testing Library',
   ],
-  openGraph: {
-    locale: 'en',
-    title: 'Next Boilerplate',
-    description: 'Start your project with Next and all modern technologies.',
-    url: 'https://vini-boilerplate.vercel.app/',
-    siteName: 'Next Boilerplate',
-  },
-  twitter: {
-    site: '@vinihvc',
-  },
+  thumb: '/images/thumb.png',
+  url: 'https://viniciusvicentini.com',
+  twitter: '@vinihvc',
 }
