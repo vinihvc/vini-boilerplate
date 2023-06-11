@@ -64,7 +64,7 @@
     "@storybook/addon-links": "^7.0.10",
     "@storybook/addon-styling": "^1.0.6",
     "@storybook/blocks": "^7.0.10",
-    "@storybook/nextjs": "^7.0.10",
+    "@storybook/nextjs": "^7.0.20",
     "@storybook/react": "^7.0.10",
     "@storybook/testing-library": "^0.1.0",
     "@tailwindcss/typography": "^0.5.9",
