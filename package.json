@@ -59,7 +59,7 @@
   },
   "devDependencies": {
     "@ianvs/prettier-plugin-sort-imports": "^4.0.0",
-    "@storybook/addon-essentials": "^7.0.10",
+    "@storybook/addon-essentials": "^7.0.22",
     "@storybook/addon-interactions": "^7.0.10",
     "@storybook/addon-links": "^7.0.20",
     "@storybook/addon-styling": "^1.0.6",
