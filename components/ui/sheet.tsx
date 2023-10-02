@@ -4,7 +4,7 @@ import * as React from 'react'
 import { cn } from '@/utils/cn'
 import * as SheetPrimitive from '@radix-ui/react-dialog'
 import { X } from 'lucide-react'
-import { VariantProps, tv } from 'tailwind-variants'
+import { tv, VariantProps } from 'tailwind-variants'
 
 export const Sheet = SheetPrimitive.Root
 
@@ -31,9 +31,11 @@ export const SheetPortal = ({
   className,
   children,
   ...props
-}: SheetPortalProps) => (
-  <SheetPrimitive.Portal className={cn(className)} {...props}>
-    <div className={portalVariants({ position })}>{children}</div>
+}: SheetPortalProps & { className?: string }) => (
+  <SheetPrimitive.Portal {...props}>
+    <div className={cn(portalVariants({ position, className }))}>
+      {children}
+    </div>
   </SheetPrimitive.Portal>
 )
 SheetPortal.displayName = SheetPrimitive.Portal.displayName
