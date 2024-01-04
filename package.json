@@ -79,7 +79,7 @@
     "eslint-config-prettier": "^9.0.0",
     "eslint-plugin-react": "^7.33.2",
     "eslint-plugin-storybook": "^0.6.15",
-    "eslint-plugin-tailwindcss": "^3.13.0",
+    "eslint-plugin-tailwindcss": "^3.13.1",
     "husky": "^8.0.3",
     "jsdom": "^23.0.1",
     "lint-staged": "^15.1.0",
