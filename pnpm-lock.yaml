@@ -125,8 +125,8 @@ devDependencies:
     specifier: ^1.3.7
     version: 1.3.7(@types/react-dom@18.2.18)(@types/react@18.2.46)(less@4.2.0)(postcss@8.4.32)(react-dom@18.2.0)(react@18.2.0)(typescript@5.3.3)(webpack@5.88.2)
   '@storybook/blocks':
-    specifier: ^7.6.3
-    version: 7.6.3(@types/react-dom@18.2.18)(@types/react@18.2.46)(react-dom@18.2.0)(react@18.2.0)
+    specifier: ^7.6.7
+    version: 7.6.7(@types/react-dom@18.2.18)(@types/react@18.2.46)(react-dom@18.2.0)(react@18.2.0)
   '@storybook/nextjs':
     specifier: ^7.6.7
     version: 7.6.7(@swc/core@1.3.91)(esbuild@0.18.13)(next@14.0.4)(react-dom@18.2.0)(react@18.2.0)(typescript@5.3.3)(webpack@5.88.2)
@@ -11101,7 +11101,7 @@ packages:
     resolution: {integrity: sha512-Sz2Lkdxz6F2Pgnpi9U5Ng/WdWAUZxmHrNPoVlm3aAemxoy2Qy7LGjQg4uf8qKelDAUW94F4np3iH2YPf2qefcQ==}
     engines: {node: '>=10'}
     dependencies:
-      '@babel/runtime': 7.23.2
+      '@babel/runtime': 7.23.7
     dev: true
 
   /postcss-import@15.1.0(postcss@8.4.32):
