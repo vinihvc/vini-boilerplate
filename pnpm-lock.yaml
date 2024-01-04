@@ -116,8 +116,8 @@ devDependencies:
     specifier: ^7.6.3
     version: 7.6.3(@types/react-dom@18.2.17)(@types/react@18.2.39)(react-dom@18.2.0)(react@18.2.0)
   '@storybook/addon-interactions':
-    specifier: ^7.6.3
-    version: 7.6.3
+    specifier: ^7.6.7
+    version: 7.6.7
   '@storybook/addon-links':
     specifier: ^7.6.6
     version: 7.6.6(react@18.2.0)
@@ -4189,11 +4189,11 @@ packages:
       '@storybook/global': 5.0.0
     dev: true
 
-  /@storybook/addon-interactions@7.6.3:
-    resolution: {integrity: sha512-Gm2UJvQC8xs9KIbVZQegTLT3VBsEZIRsXy3htNqWjSdoJZK5M4/YJ3jB247CA/Jc+Mkj7d5SlJe+bCGEzjKTbw==}
+  /@storybook/addon-interactions@7.6.7:
+    resolution: {integrity: sha512-iXE2m9i/1D2baYkRgoYe9zwcAjtBOxBfW4o2AS0pzBNPN7elpP9C6mIa0ScpSltawBfIjfe6iQRXAMXOsIIh3Q==}
     dependencies:
       '@storybook/global': 5.0.0
-      '@storybook/types': 7.6.3
+      '@storybook/types': 7.6.7
       jest-mock: 27.5.1
       polished: 4.2.2
       ts-dedent: 2.2.0
@@ -5167,7 +5167,7 @@ packages:
       dequal: 2.0.3
       lodash: 4.17.21
       memoizerific: 1.11.3
-      qs: 6.11.1
+      qs: 6.11.2
       synchronous-promise: 2.0.17
       ts-dedent: 2.2.0
       util-deprecate: 1.0.2
@@ -5399,7 +5399,7 @@ packages:
     resolution: {integrity: sha512-DTWFNjfRTpncjufDoUs0QnNkgHG2qThGKWL1D6sO18cYI02zWPyHWD8/cbqlvtT7XIGe3s1iUEfCTdU5GcwWBA==}
     dependencies:
       '@storybook/channels': 7.4.5
-      '@types/babel__core': 7.20.2
+      '@types/babel__core': 7.20.5
       '@types/express': 4.17.17
       file-system-cache: 2.3.0
     dev: true
@@ -5408,7 +5408,7 @@ packages:
     resolution: {integrity: sha512-vj9Jzg5eR52l8O9512QywbQpNdo67Z6BQWR8QoZRcG+/Bhzt08YI8IZMPQLFMKzcmWDPK0blQ4GfyKDYplMjPA==}
     dependencies:
       '@storybook/channels': 7.6.3
-      '@types/babel__core': 7.20.2
+      '@types/babel__core': 7.20.5
       '@types/express': 4.17.17
       file-system-cache: 2.3.0
     dev: true
@@ -5601,16 +5601,6 @@ packages:
 
   /@types/aria-query@5.0.1:
     resolution: {integrity: sha512-XTIieEY+gvJ39ChLcB4If5zHtPxt3Syj5rgZR+e1ctpmK8NjPf0zFqsz4JpLJT0xla9GFDKjy8Cpu331nrmE1Q==}
-    dev: true
-
-  /@types/babel__core@7.20.2:
-    resolution: {integrity: sha512-pNpr1T1xLUc2l3xJKuPtsEky3ybxN3m4fJkknfIpTCTfIZCDW57oAg+EfCgIIp2rvCe0Wn++/FfodDS4YXxBwA==}
-    dependencies:
-      '@babel/parser': 7.23.5
-      '@babel/types': 7.23.5
-      '@types/babel__generator': 7.6.4
-      '@types/babel__template': 7.4.1
-      '@types/babel__traverse': 7.18.5
     dev: true
 
   /@types/babel__core@7.20.5:
@@ -11497,13 +11487,6 @@ packages:
 
   /qs@6.11.0:
     resolution: {integrity: sha512-MvjoMCJwEarSbUYk5O+nmoSzSutSsTwF85zcHPQ9OrlFoZOYIjaqBAJIqIXjptyD5vThxGq52Xu/MaJzRkIk4Q==}
-    engines: {node: '>=0.6'}
-    dependencies:
-      side-channel: 1.0.4
-    dev: true
-
-  /qs@6.11.1:
-    resolution: {integrity: sha512-0wsrzgTz/kAVIeuxSjnpGC56rzYtr6JT/2BwEvMaPhFIoYa1aGO8LbzuU1R0uUYQkLpWBTOj0l/CLAJB64J6nQ==}
     engines: {node: '>=0.6'}
     dependencies:
       side-channel: 1.0.4
