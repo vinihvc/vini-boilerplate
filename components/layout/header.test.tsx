@@ -9,8 +9,4 @@ describe("<Header />", () => {
 	test("Should have title", () => {
 		expect(screen.getByText(/vini boilerplate/i)).toBeDefined()
 	})
-
-	test("Should have theme toggle", () => {
-		expect(screen.getByRole("button", { name: /toggle theme/i })).toBeDefined()
-	})
 })

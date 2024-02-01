@@ -1,4 +1,4 @@
-import { CONFIG } from "@/configs/config"
+import { CONFIG } from "@/configs/site"
 import { Globe2 } from "lucide-react"
 
 export const Footer = () => {

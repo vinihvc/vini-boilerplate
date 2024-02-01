@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { CONFIG } from "@/configs/config"
+import { CONFIG } from "@/configs/site"
 
 import { CopyButton } from "@/components/copy-button"
 import { Button } from "@/components/ui/button"

@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { CONFIG } from "@/configs/config"
+import { CONFIG } from "@/configs/site"
 import { Github, Twitter } from "lucide-react"
 
 import { ThemeToggle } from "@/components/theme-toggle"
