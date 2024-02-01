@@ -26,20 +26,18 @@ const RootPage = () => {
 
 				<Button size="sm" variant="outline" asChild>
 					<Link href={CONFIG.documentation} target="_blank" rel="noreferrer">
-						Check Components
+						All Components
 					</Link>
 				</Button>
 			</div>
 
-			<div className="flex w-full gap-4">
-				<pre className="hidden h-11 overflow-y-hidden items-center justify-between space-x-2 overflow-x-auto rounded border pl-6 pr-2 md:flex">
-					<code className="font-mono text-sm font-semibold">
-						{`${CONFIG.command} ${CONFIG.repository}`}
-					</code>
+			<pre className="hidden h-11 overflow-y-hidden items-center justify-between space-x-2 overflow-x-auto rounded border pl-6 pr-2 md:flex">
+				<code className="font-mono text-sm font-semibold">
+					{`${CONFIG.command} ${CONFIG.repository}`}
+				</code>
 
-					<CopyButton value={`${CONFIG.command} ${CONFIG.repository}`} />
-				</pre>
-			</div>
+				<CopyButton value={`${CONFIG.command} ${CONFIG.repository}`} />
+			</pre>
 		</section>
 	)
 }
