@@ -10,16 +10,14 @@ A Next.js template for building apps with Radix UI and Tailwind CSS.
 
 ## Features
 
-- Radix UI Primitives
-- Next with `appdir`
-- Tailwind CSS
-- Fonts with `@next/font`
-- Icons from [Lucide](https://lucide.dev)
-- Dark mode with `next-themes`
+- Radix
+- Tailwind 
+- Lucide icons
+- Dark mode ready
 - Storybook
 - Biome
 - Husky + lint-staged
-- Components by [shadcn/ui](https://ui.shadcn.com/)
+- [shadcn/ui](https://ui.shadcn.com/) components
 
 ### Class Merging
 
