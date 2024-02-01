@@ -80,7 +80,7 @@
     "eslint-plugin-react": "^7.33.2",
     "eslint-plugin-storybook": "^0.6.15",
     "eslint-plugin-tailwindcss": "^3.13.1",
-    "husky": "^8.0.3",
+    "husky": "^9.0.7",
     "jsdom": "^23.0.1",
     "lint-staged": "^15.2.0",
     "postcss": "^8.4.32",
