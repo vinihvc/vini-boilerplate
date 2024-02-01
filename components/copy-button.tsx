@@ -1,8 +1,8 @@
 "use client"
 
-import * as React from "react"
 import { cn } from "@/utils/cn"
 import { Check, Copy } from "lucide-react"
+import * as React from "react"
 
 type CopyButtonProps = {
 	value: string
@@ -19,10 +19,11 @@ export const CopyButton = ({ value, className, ...props }: CopyButtonProps) => {
 		setTimeout(() => {
 			setHasCopied(false)
 		}, 2000)
-	}, [hasCopied])
+	}, [])
 
 	return (
 		<button
+			type="button"
 			className={cn(
 				"z-20 h-8 p-2",
 				"inline-flex items-center justify-center",
