@@ -5,14 +5,6 @@ A Next.js 13 template for building apps with Radix UI and Tailwind CSS.
 # Use this template
 
 ```bash
-  npm create next-app -e https://github.com/vinihvc/vini-boilerplate my-app
-```
-
-```bash
-  yarn create next-app -e https://github.com/vinihvc/vini-boilerplate my-app
-```
-
-```bash
   pnpm create next-app -e https://github.com/vinihvc/vini-boilerplate my-app
 ```
 
@@ -25,9 +17,9 @@ A Next.js 13 template for building apps with Radix UI and Tailwind CSS.
 - Icons from [Lucide](https://lucide.dev)
 - Dark mode with `next-themes`
 - Storybook
-- ESLint + Prettier
+- Biome
 - Husky + lint-staged
-- Premade Components by [shadcn/ui](https://ui.shadcn.com/)
+- Components by [shadcn/ui](https://ui.shadcn.com/)
 
 ### Class Merging
 
