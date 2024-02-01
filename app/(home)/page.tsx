@@ -1,0 +1,47 @@
+import Link from "next/link"
+import { CONFIG } from "@/configs/config"
+
+import { CopyButton } from "@/components/copy-button"
+import { Button } from "@/components/ui/button"
+
+const RootPage = () => {
+	return (
+		<section className="mx-auto flex max-w-[980px] flex-col items-center gap-2 py-8 md:py-12 md:pb-8 lg:py-24 lg:pb-20">
+			<h1 className="text-center text-3xl font-bold leading-tight tracking-tighter md:text-6xl lg:leading-[1.1] max-w-sm md:max-w-3xl">
+				Next Boilerplate built with
+				<span className="font-bold text-blue-500"> shadcn/ui</span> components
+			</h1>
+
+			<span className="max-w-[750px] text-center text-lg text-muted-foreground sm:text-xl">
+				Beautifully designed components that you can copy and paste into your
+				apps. Accessible. Customizable. Open Source.
+			</span>
+
+			<div className="flex w-full items-center justify-center space-x-4 py-4 md:pb-10">
+				<Button size="sm" asChild>
+					<Link href={CONFIG.repository} target="_blank" rel="noreferrer">
+						Visit Repository
+					</Link>
+				</Button>
+
+				<Button size="sm" variant="outline" asChild>
+					<Link href={CONFIG.documentation} target="_blank" rel="noreferrer">
+						Check Components
+					</Link>
+				</Button>
+			</div>
+
+			<div className="flex w-full gap-4">
+				<pre className="hidden h-11 overflow-y-hidden items-center justify-between space-x-2 overflow-x-auto rounded border pl-6 pr-2 md:flex">
+					<code className="font-mono text-sm font-semibold">
+						{`${CONFIG.command} ${CONFIG.repository}`}
+					</code>
+
+					<CopyButton value={`${CONFIG.command} ${CONFIG.repository}`} />
+				</pre>
+			</div>
+		</section>
+	)
+}
+
+export default RootPage

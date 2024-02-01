@@ -1,31 +1,21 @@
-import type { StorybookConfig } from '@storybook/nextjs'
+import type { StorybookConfig } from "@storybook/nextjs";
 
 const config: StorybookConfig = {
   stories: [
-    // '../stories/**/*.mdx',
-    // '../stories/**/*.stories.@(js|jsx|ts|tsx)',
-    '../components/**/*.stories.@(js|jsx|ts|tsx)',
+    "../**/*.stories.@(js|jsx|mjs|ts|tsx|mdx)",
   ],
   addons: [
-    '@storybook/addon-links',
-    '@storybook/addon-essentials',
-    '@storybook/addon-interactions',
-    'storybook-addon-themes',
-    {
-      name: '@storybook/addon-styling',
-      options: {
-        // Check out https://github.com/storybookjs/addon-styling/blob/main/docs/api.md
-        // For more details on this addon's options.
-        postCss: true,
-      },
-    },
+    "@storybook/addon-links",
+    "@storybook/addon-essentials",
+    "@storybook/addon-onboarding",
+    "@storybook/addon-interactions",
   ],
   framework: {
-    name: '@storybook/nextjs',
+    name: "@storybook/nextjs",
     options: {},
   },
   docs: {
-    autodocs: 'tag',
+    autodocs: "tag",
   },
-}
-export default config
+};
+export default config;

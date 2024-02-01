@@ -1,5 +1,5 @@
-export const TailwindIndicator = () => {
-  if (process.env.NODE_ENV === 'production') return null
+export const MediaQueriesDebug = () => {
+  if (process.env.NODE_ENV === "production") return null;
 
   return (
     <div className="fixed bottom-1 left-1 z-50">
@@ -14,5 +14,5 @@ export const TailwindIndicator = () => {
         <div className="hidden 2xl:block">2XL</div>
       </div>
     </div>
-  )
-}
+  );
+};

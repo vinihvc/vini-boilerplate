@@ -1,19 +1,19 @@
-# Next Boilerplate
+# Vini Boilerplate
 
 A Next.js 13 template for building apps with Radix UI and Tailwind CSS.
 
 # Use this template
 
 ```bash
-  npm create next-app -e https://github.com/vinihvc/next-boilerplate my-app
+  npm create next-app -e https://github.com/vinihvc/vini-boilerplate my-app
 ```
 
 ```bash
-  yarn create next-app -e https://github.com/vinihvc/next-boilerplate my-app
+  yarn create next-app -e https://github.com/vinihvc/vini-boilerplate my-app
 ```
 
 ```bash
-  pnpm create next-app -e https://github.com/vinihvc/next-boilerplate my-app
+  pnpm create next-app -e https://github.com/vinihvc/vini-boilerplate my-app
 ```
 
 ## Features
@@ -36,7 +36,7 @@ The `cn` util handles conditional classes and class merging.
 ### Input
 
 ```ts
-cn("px-2 bg-neutral-100 py-2 bg-neutral-200")
+cn("px-2 bg-neutral-100 py-2 bg-neutral-200");
 // Outputs `p-2 bg-neutral-200`
 ```
 

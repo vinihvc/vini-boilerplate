@@ -1,40 +1,45 @@
-import { Metadata } from 'next'
-import { Inter as FontSans } from 'next/font/google'
-import { cn } from '@/utils/cn'
+import { Metadata, Viewport } from "next";
+import { Inter as FontSans } from "next/font/google";
 
-import { Providers } from './providers'
-import '@/styles/globals.css'
-import { SEO } from '@/constants/seo'
+import { Providers } from "./providers";
+import "@/styles/globals.css";
+import { SEO } from "@/configs/seo";
 
-import { Footer } from '@/components/layout/footer'
-import { Header } from '@/components/layout/header'
-import { TailwindIndicator } from '@/components/tailwind-indicator'
-import { Toaster } from '@/components/ui/toaster'
+import { Footer } from "@/components/layout/footer";
+import { Header } from "@/components/layout/header";
+import { MediaQueriesDebug } from "@/components/debug/media-queries";
 
 const fontSans = FontSans({
-  subsets: ['latin'],
-  variable: '--font-sans',
-})
+  subsets: ["latin"],
+  variable: "--font-sans",
+});
 
 type RootLayoutProps = {
-  children: React.ReactNode
-}
+  children: React.ReactNode;
+};
+
+export const viewport: Viewport = {
+  themeColor: [
+    { media: "(prefers-color-scheme: light)", color: "#FFF" },
+    { media: "(prefers-color-scheme: dark)", color: "000" },
+  ],
+};
 
 export const metadata: Metadata = {
+  metadataBase: new URL(SEO.url),
   title: { absolute: SEO.title, template: `%s // ${SEO.title}` },
   applicationName: SEO.title,
   description: SEO.description,
   keywords: SEO.keywords,
-  themeColor: '#0A0A0A',
   openGraph: {
-    locale: 'en',
+    locale: "en",
     title: SEO.title,
     description: SEO.description,
     url: SEO.url,
-    type: 'website',
+    type: "website",
     images: [
       {
-        url: '/images/thumb.png',
+        url: "/images/thumb.png",
         width: 1200,
         height: 630,
         alt: SEO.description,
@@ -45,20 +50,12 @@ export const metadata: Metadata = {
   twitter: {
     site: SEO.twitter,
   },
-}
+};
 
 const RootLayout = ({ children }: RootLayoutProps) => {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body
-        className={cn(
-          'font-sans antialiased',
-          'flex h-full min-h-screen flex-col',
-          'bg-white dark:bg-neutral-900',
-          'text-neutral-900 dark:text-neutral-50',
-          fontSans.variable,
-        )}
-      >
+      <body className={fontSans.variable}>
         <Providers>
           <Header />
 
@@ -66,13 +63,11 @@ const RootLayout = ({ children }: RootLayoutProps) => {
 
           <Footer />
 
-          <TailwindIndicator />
-
-          <Toaster />
+          <MediaQueriesDebug />
         </Providers>
       </body>
     </html>
-  )
-}
+  );
+};
 
-export default RootLayout
+export default RootLayout;
