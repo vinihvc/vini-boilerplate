@@ -13,8 +13,9 @@ const RootPage = () => {
 			</h1>
 
 			<span className="max-w-[750px] text-center text-lg text-muted-foreground sm:text-xl">
-				Beautifully designed components that you can copy and paste into your
-				apps. Accessible. Customizable. Open Source.
+				Boilerplate with a focus on practicality. Already set up with
+				TypeScript, Tailwind, Radix, Biome, Husky, Lint-Staged, Vitest, Dark
+				Mode and more.
 			</span>
 
 			<div className="flex w-full items-center justify-center space-x-4 py-4 md:pb-10">
