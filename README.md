@@ -1,6 +1,6 @@
 # Vini Boilerplate
 
-A Next.js 13 template for building apps with Radix UI and Tailwind CSS.
+A Next.js template for building apps with Radix UI and Tailwind CSS.
 
 # Use this template
 
