@@ -5,7 +5,7 @@ A Next.js template for building apps with Radix UI and Tailwind CSS.
 # Use this template
 
 ```bash
-  pnpm create next-app -e https://github.com/vinihvc/vini-boilerplate my-app
+  pnpm create next-app -e https://github.com/vinihvc/vini-boilerplate
 ```
 
 ## Features
