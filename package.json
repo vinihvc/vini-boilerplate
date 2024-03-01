@@ -60,7 +60,7 @@
 		"autoprefixer": "^10.4.17",
 		"husky": "^9.0.7",
 		"jsdom": "^24.0.0",
-		"lint-staged": "^15.2.1",
+		"lint-staged": "^15.2.2",
 		"postcss": "^8.4.33",
 		"storybook": "^7.6.12",
 		"tailwindcss": "^3.4.1",
