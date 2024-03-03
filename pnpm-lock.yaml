@@ -68,8 +68,8 @@ devDependencies:
     specifier: ^7.6.12
     version: 7.6.12(@swc/core@1.3.107)(esbuild@0.18.20)(next@14.1.0)(react-dom@18.2.0)(react@18.2.0)(typescript@5.3.3)(webpack@5.90.0)
   '@storybook/react':
-    specifier: ^7.6.12
-    version: 7.6.12(react-dom@18.2.0)(react@18.2.0)(typescript@5.3.3)
+    specifier: ^7.6.17
+    version: 7.6.17(react-dom@18.2.0)(react@18.2.0)(typescript@5.3.3)
   '@storybook/test':
     specifier: ^7.6.12
     version: 7.6.12(vitest@1.2.2)
@@ -3579,6 +3579,13 @@ packages:
       '@storybook/preview-api': 7.6.12
     dev: true
 
+  /@storybook/core-client@7.6.17:
+    resolution: {integrity: sha512-LuDbADK+DPNAOOCXOlvY09hdGVueXlDetsdOJ/DgYnSa9QSWv9Uv+F8QcEgR3QckZJbPlztKJIVLgP2n/Xkijw==}
+    dependencies:
+      '@storybook/client-logger': 7.6.17
+      '@storybook/preview-api': 7.6.17
+    dev: true
+
   /@storybook/core-common@7.6.12:
     resolution: {integrity: sha512-kM9YiBBMM2x5v/oylL7gdO1PS4oehgJC21MivS9p5QZ8uuXKtCQ6UQvI3rzaV+1ZzUA4n+I8MyaMrNIQk8KDbw==}
     dependencies:
@@ -3774,6 +3781,21 @@ packages:
       '@storybook/core-common': 7.6.12
       '@storybook/preview-api': 7.6.12
       '@storybook/types': 7.6.12
+      '@types/doctrine': 0.0.3
+      assert: 2.1.0
+      doctrine: 3.0.0
+      lodash: 4.17.21
+    transitivePeerDependencies:
+      - encoding
+      - supports-color
+    dev: true
+
+  /@storybook/docs-tools@7.6.17:
+    resolution: {integrity: sha512-bYrLoj06adqklyLkEwD32C0Ww6t+9ZVvrJHiVT42bIhTRpFiFPAetl1a9KPHtFLnfduh4n2IxIr1jv32ThPDTA==}
+    dependencies:
+      '@storybook/core-common': 7.6.17
+      '@storybook/preview-api': 7.6.17
+      '@storybook/types': 7.6.17
       '@types/doctrine': 0.0.3
       assert: 2.1.0
       doctrine: 3.0.0
@@ -4048,6 +4070,16 @@ packages:
       react-dom: 18.2.0(react@18.2.0)
     dev: true
 
+  /@storybook/react-dom-shim@7.6.17(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-32Sa/G+WnvaPiQ1Wvjjw5UM9rr2c4GDohwCcWVv3/LJuiFPqNS6zglAtmnsrlIBnUwRBMLMh/ekCTdqMiUmfDw==}
+    peerDependencies:
+      react: ^16.8.0 || ^17.0.0 || ^18.0.0
+      react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0
+    dependencies:
+      react: 18.2.0
+      react-dom: 18.2.0(react@18.2.0)
+    dev: true
+
   /@storybook/react@7.6.12(react-dom@18.2.0)(react@18.2.0)(typescript@5.3.3):
     resolution: {integrity: sha512-ITDRGi79Qg+z1kGYv+yyJESz/5AsJVdBTMO7tr1qV7gmHElkASt6UR8SBSqKgePOnYgy3k/1PLfbzOs6G4OgYQ==}
     engines: {node: '>=16.0.0'}
@@ -4066,6 +4098,46 @@ packages:
       '@storybook/preview-api': 7.6.12
       '@storybook/react-dom-shim': 7.6.12(react-dom@18.2.0)(react@18.2.0)
       '@storybook/types': 7.6.12
+      '@types/escodegen': 0.0.6
+      '@types/estree': 0.0.51
+      '@types/node': 18.19.13
+      acorn: 7.4.1
+      acorn-jsx: 5.3.2(acorn@7.4.1)
+      acorn-walk: 7.2.0
+      escodegen: 2.1.0
+      html-tags: 3.3.1
+      lodash: 4.17.21
+      prop-types: 15.8.1
+      react: 18.2.0
+      react-dom: 18.2.0(react@18.2.0)
+      react-element-to-jsx-string: 15.0.0(react-dom@18.2.0)(react@18.2.0)
+      ts-dedent: 2.2.0
+      type-fest: 2.19.0
+      typescript: 5.3.3
+      util-deprecate: 1.0.2
+    transitivePeerDependencies:
+      - encoding
+      - supports-color
+    dev: true
+
+  /@storybook/react@7.6.17(react-dom@18.2.0)(react@18.2.0)(typescript@5.3.3):
+    resolution: {integrity: sha512-lVqzQSU03rRJWYW+gK2gq6mSo3/qtnVICY8B8oP7gc36jVu4ksDIu45bTfukM618ODkUZy0vZe6T4engK3azjA==}
+    engines: {node: '>=16.0.0'}
+    peerDependencies:
+      react: ^16.8.0 || ^17.0.0 || ^18.0.0
+      react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0
+      typescript: '*'
+    peerDependenciesMeta:
+      typescript:
+        optional: true
+    dependencies:
+      '@storybook/client-logger': 7.6.17
+      '@storybook/core-client': 7.6.17
+      '@storybook/docs-tools': 7.6.17
+      '@storybook/global': 5.0.0
+      '@storybook/preview-api': 7.6.17
+      '@storybook/react-dom-shim': 7.6.17(react-dom@18.2.0)(react@18.2.0)
+      '@storybook/types': 7.6.17
       '@types/escodegen': 0.0.6
       '@types/estree': 0.0.51
       '@types/node': 18.19.13
