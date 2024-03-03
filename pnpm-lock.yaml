@@ -53,8 +53,8 @@ devDependencies:
     specifier: ^7.6.12
     version: 7.6.12(@types/react-dom@18.2.19)(@types/react@18.2.61)(react-dom@18.2.0)(react@18.2.0)
   '@storybook/addon-interactions':
-    specifier: ^7.6.12
-    version: 7.6.12
+    specifier: ^7.6.17
+    version: 7.6.17
   '@storybook/addon-links':
     specifier: ^7.6.17
     version: 7.6.17(react@18.2.0)
@@ -3261,11 +3261,11 @@ packages:
       '@storybook/global': 5.0.0
     dev: true
 
-  /@storybook/addon-interactions@7.6.12:
-    resolution: {integrity: sha512-D8NX2xu9WiqPInoN842DU+KAFVC8HscGczqkDGEiWCAqq0DfXtW/0ClMSaE6d2+twhGv6uiPfeJ2IdynSZolXg==}
+  /@storybook/addon-interactions@7.6.17:
+    resolution: {integrity: sha512-6zlX+RDQ1PlA6fp7C+hun8t7h2RXfCGs5dGrhEenp2lqnR/rYuUJRC0tmKpkZBb8kZVcbSChzkB/JYkBjBCzpQ==}
     dependencies:
       '@storybook/global': 5.0.0
-      '@storybook/types': 7.6.12
+      '@storybook/types': 7.6.17
       jest-mock: 27.5.1
       polished: 4.3.0
       ts-dedent: 2.2.0
@@ -9124,6 +9124,7 @@ packages:
   /polished@4.3.0:
     resolution: {integrity: sha512-ggU2H9FdSRwmcfGEPFaUNoX+P6cVbmIhobEpVBCiclCm6Ku+vlzh7wmhBRplYUqsECt8ZHwM8CaVjLBzLMJB1g==}
     engines: {node: '>=20'}
+    deprecated: this version  has been deprecated to address an unintended breaking change
     dependencies:
       '@babel/runtime': 7.23.9
     dev: true
