@@ -62,7 +62,7 @@
 		"jsdom": "^24.0.0",
 		"lint-staged": "^15.2.1",
 		"postcss": "^8.4.33",
-		"storybook": "^7.6.12",
+		"storybook": "^7.6.17",
 		"tailwindcss": "^3.4.1",
 		"typescript": "^5.3.3",
 		"vite": "^5.1.4",
