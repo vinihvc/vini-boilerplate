@@ -71,8 +71,8 @@ devDependencies:
     specifier: ^7.6.17
     version: 7.6.17(react-dom@18.2.0)(react@18.2.0)(typescript@5.3.3)
   '@storybook/test':
-    specifier: ^7.6.12
-    version: 7.6.12(vitest@1.2.2)
+    specifier: ^7.6.17
+    version: 7.6.17(vitest@1.2.2)
   '@tailwindcss/typography':
     specifier: ^0.5.10
     version: 0.5.10(tailwindcss@3.4.1)
@@ -3809,14 +3809,14 @@ packages:
     resolution: {integrity: sha512-FcOqPAXACP0I3oJ/ws6/rrPT9WGhu915Cg8D02a9YxLo0DE9zI+a9A5gRGvmQ09fiWPukqI8ZAEoQEdWUKMQdQ==}
     dev: true
 
-  /@storybook/instrumenter@7.6.12:
-    resolution: {integrity: sha512-BK+hCz2tuUSDPvN0kACR+Ev7lQj4SLlMdXiJgRGdnKWR7zr1OFEg9MEIwPHNC+Ywny1x7YOwrbNJ9sdISNIh0g==}
+  /@storybook/instrumenter@7.6.17:
+    resolution: {integrity: sha512-zTLIPTt1fvlWgkIVUyQpF327iVE+EiPdpM0Or0aARaNfIikPRBTcjU+6cK96E+Ust2E1qKajEjIuv4i4lLQPng==}
     dependencies:
-      '@storybook/channels': 7.6.12
-      '@storybook/client-logger': 7.6.12
-      '@storybook/core-events': 7.6.12
+      '@storybook/channels': 7.6.17
+      '@storybook/client-logger': 7.6.17
+      '@storybook/core-events': 7.6.17
       '@storybook/global': 5.0.0
-      '@storybook/preview-api': 7.6.12
+      '@storybook/preview-api': 7.6.17
       '@vitest/utils': 0.34.7
       util: 0.12.5
     dev: true
@@ -4200,13 +4200,13 @@ packages:
       - supports-color
     dev: true
 
-  /@storybook/test@7.6.12(vitest@1.2.2):
-    resolution: {integrity: sha512-kOkgr9EJqeitoN3ubbVRrAysHCqxpAFAyKzWCGuic9ynxvfTOc5prup0e05/GJmbHYqkWsOyaordXgcHvy8JaQ==}
+  /@storybook/test@7.6.17(vitest@1.2.2):
+    resolution: {integrity: sha512-WGrmUUtKiuq3bzDsN4MUvluGcX120jwczMik1GDTyxS+JBoe7P0t2Y8dDuVs/l3nZd1J7qY4z0RGxMDYqONIOw==}
     dependencies:
-      '@storybook/client-logger': 7.6.12
-      '@storybook/core-events': 7.6.12
-      '@storybook/instrumenter': 7.6.12
-      '@storybook/preview-api': 7.6.12
+      '@storybook/client-logger': 7.6.17
+      '@storybook/core-events': 7.6.17
+      '@storybook/instrumenter': 7.6.17
+      '@storybook/preview-api': 7.6.17
       '@testing-library/dom': 9.3.4
       '@testing-library/jest-dom': 6.4.1(vitest@1.2.2)
       '@testing-library/user-event': 14.3.0(@testing-library/dom@9.3.4)
